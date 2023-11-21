@@ -1,0 +1,195 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_SLIDING_MENU
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_SLIDING_MENU
+ identifier : 0x26e9635511037ffc
+ internal_properties : CAAAAAgAAACwsXmJbrO8DZBhqWhCjM8c0CgvjkfiMcFMrZ+7Y/0VJrv3ZKMQ5gW4mbka2r09R8vQ7TBA8GvJ5U4XG7VRSvAdfNh+BSQRcSaHYrWkspnV+3FPKt3tTyxnnzVeZuy0RSGf4QZZMBKTAPTs/Flq+jkIwevPdTgJJf5HYY73N212RbBtc8yEaHD8a1ExQTMLeJAWYtsFlGZc8k/HUA6+Yj7SjdcUdXL2OLg1EfaldP5Y/NalXyZkUWo0dlQDxh2E+tEii2Uam1PiO2hHunhy2XhA/xdwA6Vz8/44rTFmrElWJ+uQSE3TVjACDZp6XfG3l2qrqDDzM07vQcYdKyCPzDEx3EIV1g+CDR/OgCMWLlPv0X/huX+0cAB0+7R2P3Nn7HTKBBO7sjJZTXmVhm5kjUc7MJS/g9zXyLXTr8e0DZddG2T+sPMOl8AhMyiCr3p7xWd+IcREGHr4ELRXbjY1luO5YmsozEl10IWsM5liB1NDC+Lrc5UPz4KEm4ovR+VkXLdGiZJU6Bnqos7zE6W/nY9HxntJ6XcSQoxAf01HcBB18jBPfntIi0541RDzfLuF5w2Iir9nl2+/RpBSjm55xh/JkBkkcoEDi/0+5tkSz0XOjljD0fphPx/meV4715V9t3hh7bsiIDZkMmTJYXksifi2EWvZkS9eH4PK1IbDou8jNapV1oZOZwrvS+tIA7pXnRohELNBkAPEZqDGkoLDwlOsk+pSGPKxG5cGE9HbtFhkV6kU9JpMXs+zlfhBHVonMlwVUWyLx+FSY56hPSojhA==
+ properties :
+  width : 260
+  height : 392
+ controls :
+  -
+    name : IW_SLIDING_MENU
+    identifier : 0x26e9635511047ffc
+    internal_properties : CAAAAAgAAAA9868cI36Sh/J2yD/7f1k8Ry2cTLCep8AnM2HaZsYTGd7bnZnm11MZsN2ENt9ObFkS69Jq1i1MRB/AA0xDI88O5bzBJEozzbuYSyxqC4aW2HyrvmZRuWWT4VZXlmOodKl4jNosg2mK2SLZti9qziRjRLq6hMhJtJtSYOuAiueVQwHLj95f1CC+2KfcnraumOanuc0YWRnUHdyG03nCq7J17g+Gkb94wFv0lNPNVsFe25Rx2A6AnHZ8Z8fgbvrZKb6jrQGyXfEYIJ1nexOtPRtvMwzSETvsI9BybG+tCZgfdRDhNekuNJlZEh3WXTAVaHJN63DPL+xA4biVfc8y9q9W9a63oDpME5UZUDvC9f/uKSFQZn2opjFG8KmsV/62bpa+s3w8uz1z/UyllsEgJBNPVrNZYiXP/vhG65Vi4OmONtBsXGvL6xDK/U6UL+TS5LyfU5YzDrf4S3WaVXofx1QdS4FQEWzOzQEtpSd9gXZhhGqquL8=
+    properties :
+     width : 260
+     height : 392
+    controls :
+     -
+       name : IMG_NoName1
+       identifier : 0x26e9635511057ffc
+       internal_properties : CAAAAAgAAADBp7ZqXpyDamKpY30BO19lRF3IhHeu6zKk1sPHXDt9St9Q7h25I4B2YSYj+mr3a3pUMl55+/wYYLrk94c8EqR7DeplGTzWwjEEfj/PLPonPwjlEzHbqeRG+ix71hgCOaxyW3z0fEm4seKK3jG+Y3T/g822I254VFeAtM7bojw7fRHC5aXoFOwlB9rSfu5MntlkhkacMnNC/i4AlQh542ZuLk62sgKLmfSNHuxqD5diwDDixlA7KzuHwLtMo2kkoPG30pwpOadDRoYErSIW/uMew2WFdxyF9VimYYfnz9H/fT/3ySnM2OAuD3laf42AwYgYJrswm7ci+P8ldEIGacBj6XQk0fl5qBIrFFmi8zVDZsQQcjuUuhDzdcmyUyMh3cgn361GtqUUoDy1b9zBTkzHq5YCWSKdyzhMgziPoxYdvl9yzvt1jZlCZTgtCA5tSb/ibUDxmYg/bn4pmykvVYyjHKbisbpMqEgVgWK94xkoxozpRXSThTPnnuogR3FqiDGFfzITwkeakKF0pL1fswv6PPG2gbhsUrRI2N6Rh/ACgJ3SkROR3m/wOADCRAbAfoXwDwfEMhYmGNDNeJaOwm79ZaO3wXNJZDCqrWZ1UUaWdPRyYxXn7T2VjtDKHOVGlUooGqqgHip4lAglB1U5uVOtQn77SPv5VgwYli5hk2jZ00Qrxt7UiBR5BZii83PIIT3l2H+JTfQItNaBzoYW2H7jTTMYmevz5YfpDP8KXin+iLzSFaAzTf7KeKA06aTbmrsdmZUqvZK66buJNAorCM4YzqqdQ8+WZaYv3DnBhEnjYLzT3avKoG5Bx4GL9bws+Saj7icPc0jMauSCtuIfXmL+WnujaX0emueywFV+
+       properties :
+        width : 260
+        height : 140
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_NEW_GAME
+       identifier : 0x26e9635511067ffc
+       internal_properties : CAAAAAgAAAD1BI4rs3+qwHPVRbLAE3DIxe6tZKKPu0Ys+Eixd5V3K5e7dO5St1bko1Zi7qCc5ndb3dXAzBasYte3jsKc1MLn7YYXfCE2qMs7R6xfwChE9zIz4in5YyFOIY8Fe3U7bwJ9Wpps5jIhJFh5tj/SSNTGSTPoJ5utytTvgkHKuVCveoH/Y8EF1DbIW+7zF1EpNdi1e1xMW8LECXMfT9xT3+9qXjltE58GYKIH3tn0Lv9db9iKggcQzZGcNRlyU4029Yczdh1b1pUCe1QixPlrQVobo5hUAyUQoHpGHY6Cr3hhiq5mK0ny1lxoqyjbgzI3CFxkW1pQiraYB3stYtc77m+inxN/r7OTw69Z5c5JuX5lrIaP60mkpsxIi+yN4caDe6z2XWh/RDcoZSMJkL8kceQ8RyZZMn7XnqshN+QbZlCyk/ehm/xiHqDpDQxJBGHoopGC4385dsETp0+jtgJdqRKzX9+7qCii/A1ZSl2o/y/37+S9oLjC345WPN4S0akNpFhqnoNzTrYUfQVfps3nT8gXplQQk5oywEViUeEJm9apReUGhl/DL0YYNzoFhHAsfSkG4sr24nrkPYMfTyrnY7fYEnGHe0dw5glZ+gyeMRiNWLknaNvSxvzP7A9zkBMUoIm8oMIRsMsOkutIvU4Ae+PxPDu4P2O8isCmmYn7Cvcn5+axsoE4L27+0OKBkDrN/RVCYXfaqPtMLO6OyL681qZAXrKmwAJuzJl9nr9mVKaNOgx5Bs4eF/Ez3ePvTyesV+Zh/qC3c1FqjJ91Oa0XRPEQUwYpQAdlrXAjG//JdmgjX86ld3zfhOBm9Pc10alUXHGyfhyfCZTkdQ==
+       properties :
+        y : 139
+        width : 260
+        height : 54
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            IF WinStatus(WIN_Main)<>NotFound THEN
+            	ExecuteProcess("WIN_Main.Initialize",trtProcedure)
+            END
+            
+            IF WinStatus(WIN_Main_Tablet)<>NotFound THEN
+            	ExecuteProcess("WIN_Main_Tablet.Initialize",trtProcedure)
+            END
+            
+            <COMPILE IF ConfigurationType=Android OR ConfigurationType=iOS>
+            	WinSlidingVisible(swLeft,False)
+            <END>
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_ABOUT
+       identifier : 0x26e9635511077ffc
+       internal_properties : CAAAAAgAAACAV6XMJ7zcP0CanHBttofregRjT47C76q4ZWTAzdUR7So7R/fr+2kWcy3RzeNcdwESnY81YvANrHY7nr3L0rtmiHqVPPVAhaC8+OhXwePvi2OLQdzpPDgIBDSTixYP37OzjZu3Zv6WjAhOBK7TG/uz/+CIimBl1UGZoiHVYoK/CQp/0ESC3xXkE9s8aFmTHLLeLzUft41TVD1nTI7h21FGD9UehbGy5ueldhkJQYjS8btzNqt0cSS6DfNbGFYv59zbM0YCt+mJFLRLrDgFIt2tJU6ofEoZPSF24/89+wx3aKnaIjYQxE//L67zPPJCQCSrQlvcA1rp8HYqpzH1zwEAnl51B/8NXbjD/nBlrm3GkWmyGBl7xAcWsVbBasA7R6pYj44BuDCHwgiJwFsqgBIb2cNcKMHBOsrgQcVUZsLLK5g6uBxZH25YOwoS+9GXKsVYiETOiorYC+ASBS+W8cNdkjx41BVYYjlLEbPEZpABW/O49WP2zIh/W4SbCZkh9DcPSSB50hnToDFW0n3DYb7SicZWef9UfTa90FC3GZJMm+aKQTDN2Vd+uWJrr1XgjWJbuEmi48dSDZqPlsSdeKu3v3sZfWf7T1KhQstUB1/O5zUbomtiZXOWmNIMkPQPVbPeWX+v6qBJeVlvhPOgIDZbzS7v0ZW2Iny2dLJd1aVfdkhd2atIg2FLwWI0PQG4mT7wee2agFCLElumgouSDadrmZLZ3uJOMlIIBcdYMt75ELfyYHOni98j+OxvISTaHmCe0ZvRflFrAo+Llj1G8cJHC3mzVZx5G7P56kx47qblSi7KK9OjgARnDcB/zw3aI0mzbiFQ6xy5wsiJgQ==
+       properties :
+        y : 192
+        width : 260
+        height : 54
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAAAxHwDtI50lDO4e5OCLVx4t9fdYlVUTPTlGGWm0yMoAkCb89grntRgone2cIb8hfnS5DfMql74XhmavJnFH4vJ7sSM5m98ZlYsrEd4XEsnXH+7GxI7WywvnAbpv9ls6/PS5CI3Cc1RNdbbygGSBCz6wfWnVYg7jzrE7ZIFAguU=
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : STC_Application
+       identifier : 0x26e9635511087ffc
+       internal_properties : CAAAAAgAAAB/q4G4pq5+KOf4csNVd4pccN63wQp0UkZdHln2q2o0J22A+4CJR5P1uj4Z0saU9UDQZMmsnuf+zcAUYqU4y+BPRuRXp43DuxYzZYu19SG4jK9GdQWgX3Y08KMchyWwR7T56kgectjlk6K7VWvZxlG2uV5CWA+m8pNRwL0fMR28EzKTBgX28oQBpdWqOgcML9nlyj4vOad3Dzmn6RUADLik3EARgseZkaVK8geU7Z88kn4gU7qAP3b3F7XtorbZlUPWDrZNuIla0ZctfLlllIyz7zIfD7uoOgaODdCVPw31qBRaOjiq5kPUTuIagD/yHvoGcXxKKBBupXILK7jRGwd4JmZY9bQU4NZv3HQjwdsWbvUcTIPfn0S35bLxI2OPkP5lzrTixYSfqzPECe1pkwXD2UOc6EaO+m0A6XMNNSSF1QPzuUdFc5Bg9etD2Nxafxn+Pt9TMUnvcVcpsZ+Rnzwwp+kR+gLeic2cwfxloujB5zgHmRYm95BXly5JARN1gjqCXembBb1OJ2ayTnX43UNwUuY=
+       properties :
+        x : 10
+        y : 274
+        width : 241
+        height : 69
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : BTN_WINDEV_Mobile
+       identifier : 0x26e9635511097ffc
+       internal_properties : CAAAAAgAAACD7mPZV02VQH36oJ2GUUFUYXI4b1IrmVMR680BIXkEmXb2+UpmYUEAbEpA0lD9y7HZqKJ0MQPXrsvEWtj+jeNXU1kFkaZKyuOJYyBNCzRoEPOVC69qqtBObox/IvQYUuZLDbmb2yZZLjTZIMZWcetPmxKmLb5mvnYEp1pzko5cs49ETFXTrYUYRYKH7wqqq/CoSauCjxLWtZBsbxUIR3NTH+QKzTTfRR8Or567M8pllH6HdPzJtP7JyvjHBZiaAd4RSS3gg41F29y7PSq70O+rFNBfQ3//GGnfjlhRpwXGbUFpz1uP1tjhoZvUBS1IbrcOdu1Dh3FLrTnDi5ccElZB4XXxZmmggyqBayNGjsCvMOPPTzcQB/tgoMYEWKaiDW/YPTRvEjSDG1lUwxpL0U/iMOfS+mJvhBegxxoC3BVUynM76W2xEYmnfh/X+SrZZSIrLFiYN+Sd3415YCgjkFvVdtP5CBwxeHbHCM/n6EYWT4mCyvT2sh3P38k30H51nQaqxklp2Iykvn8F39Q8kChDARcyAzPc0jVeQnIv7mbK1kzjdwy5xovMD6vtBq8DH7cjktL8o+WiPFJbRK2YP1nZZZqlmhGVGNql5id1juI1CLlYAU0aB4jc39td00HZ5SutgGhWEDEqvEbHdUL/cUtdgixCM242lxrLJ1oUhCowhBOWtsv6+XCIqk2nUV6F/iRKIYxsygyQ6JdAhorkv7hJmJQ2aU6i4nxy5zW2hMawmr4dRj9u0LsFUqidDUAjS/4D4kt3HMewPN3hpD6GppCl3qbvq+aQ6LL5JRzyk3zTP8Sz9v+/2Ks3EhsMxpcX4yCVRJsZpqtdWRHkl23wlw==
+       properties :
+        x : 70
+        y : 351
+        width : 120
+        height : 29
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAADIhI5hCr+Pp1bEcqdDcVq/uEXi2zyzHAgkZw7x/xBVe/wqALv2/C+u0IEFYarem9lV7sE+3EEwvkxoPZ7XfZMe/MgzCbKyTicCZKab+zUErW0W4OPtz/+WSHE2gHN3yCK1fW+e0CwFug8Owk4NyDFdGKD4K3X4YVchc0VXHFSiBFKGMSsfm1zUggpQnQ99AUZEsKT7zQkc/olR0VI8dQ4NPA==
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_NEW_GAME_PICTO
+       identifier : 0x26e96355110a7ffc
+       internal_properties : CAAAAAgAAABpwG1gHH8Jzp7TzhqWuuLmZUvnBZPROjm7Bt39ZzT6kWpKnSQow1aOwwILAAC0uWph6uWFBffpAN/ex83ffY1mrZvtVJHILdNuZI3UCFFOdi5HpqPOiZ65Mrl3njyyuaifbfjeTA3iPQgaIwru0Nns72vg69LUJqpkzXY5+deRyXfxYlCeLCR+vHtbtMeZoHUUh9xVH+683/vE/4+9W+kX0AuCbVG+pCX/E17rbce9p1OOlhAWo9uPFYivis4eTwsTql6ledMm5HmhCb4O3C4XKRSYS12wqmiwNcu3imsVKCrRHVxqWb3QvOkOiFK8KOla37iOroSqANGHr8euFpaHg6jBLe97iBDgSU80MrBVHuf6oyLIUAN/MVy9eivz+AXBI4QPOgQzVM59jTc4fwooguK/tZtI0fU03EAJDdzqm6AousbgERaaWvzx70AWXsVDqBY1m3uir2kpOiswUT6pazcR/tF32rozaElyLi/XfIM0PrIyUH3pmtUJzoMr5VE2rVrWSYKt2RDzXh+mB+N3H6Hpg2/COG72zdDOY1v8t/+qC8T7KdIGbh1Zk3fK6hHPxwxMs8Gd24H0aAUz1BKc7XxqjdEtFCIOdU0ZadePCrNGEfFqD1T65eFODfzv4ARKwgbmF0MkdB8VoFzfcdmMQ90R6zxxXkSSYYGYcZ7ALJOOOOko5pq66tGW7HEOdvf8zgL6LlElafvc2xWRUdRx9KoR25GTRuswKCb1ye9UBOd9qJQv8RzhOSJwhF/Wrj++v3vPWiZQo4b2dSecl4eu+8tlyKFyrQY9XHuuWNPux1+sylSo0r0FYhFWBra4wzXc92K5au9Ijaw0oSEUkfDsiRuVXlHkNiHMpL6biY0RMrEYPm+OBQ==
+       properties :
+        x : 12
+        y : 150
+        width : 32
+        height : 32
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            ExecuteProcess(MyWindow..Name+".Initialize",trtProcedure)
+            
+            <COMPILE IF ConfigurationType=Android OR ConfigurationType=iOS>
+            	WinSlidingVisible(swLeft,False)
+            <END>
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_NEW_GAME_PICTO1
+       identifier : 0x26e96355110b800c
+       internal_properties : CAAAAAgAAAB3WNHXZ5XA+fx83nf/59vn2k5Jv9NHmKjZfVIgWi6qKR11WYs1hCcpk8NwpmZ0pvoDPEsCtnnFKQic66jabpOCQiLXFws3G5MYIqX5BEWzydfDM5dKi/og/xXTtmNROXAe6hjD/jHYoe2WIKi2+zB5iQMksPs2DvHePF0801MMUr7aJxBMN/WuBa/8eqrjg+YmhQv/1V2yUMTH3xM7AibzzkQXd24Qly6yQD+jHOyMO3AUFD6r5vNL3JivCMl5jYMZBDugHlJRwcSNZVQtYA168ETecy7Tgu2RMt26UP/mC6G3NL1w50CHwiQ0aMPNdZBAxRoy+Pfg/tTX4iJMNlBmwkXcFdWHNgzDXZ4lTnFnZEWYUsOWdIab7QcDQHfBqp+Jzd2ehYIHcfJDookc3agDVWyg31mNkS4mFE+zxnZSabA6GDabIL/Qg/TmmMGSR6Sd7DruD/T0x7YqBsJXLG+Ih53S6y1ENegNHvPIaWipDwW5pXDCgiCokejjLp/5JPl+gcCEkEPJwzBmJyZlj0nUjhbfD3u4YVS92Xdltu+nmq7uWZxsvsKO9ROpIhca9+g6iA/jDPWE7RpHBtBe2QiRECQ7kdnKkNV/4RIF2B4cwvA4v7ra7xwTzxhxeDzcpAhzro09u6JQXvQ8k9cvMXMhFlJA2NIInFypxHwLfT/VnbSgbiPF3PuN3iLR/g5FwIm1r4HsMPgr9IY2r7XYaIKvtfNu45xbCJJ0Q9CvNUsrE1yo9Udqyt98Rvo8T9rs1azLa84/9CFNA1TiWxjAsaj03m3IhoKUGpGWgqMa5nHTrz1hiGEbRymAwtloCQu3Lqhs8ji4s6puL6hmZ6MyTyr4I68m5FA=
+       properties :
+        x : 10
+        y : 203
+        width : 32
+        height : 32
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAAAxHwDtI50lDO4e5OCLVx4t9fdYlVUTPTlGGWm0yMoAkCb89grntRgone2cIb8hfnS5DfMql74XhmavJnFH4vJ7sSM5m98ZlYsrEd4XEsnXH+7GxI7WywvnAbpv9ls6/PS5CI3Cc1RNdbbygGSBCz6wfWnVYg7jzrE7ZIFAguU=
+           code : |1+
+            ExecuteProcess(MyWindow..Name+".Initialize",trtProcedure)
+            
+            <COMPILE IF ConfigurationType=Android OR ConfigurationType=iOS>
+            	WinSlidingVisible(swLeft,False)
+            <END>
+           type : 18
+         -
+           type : 161
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MyWindow()
+ menu :
+  name : _Menu
+  identifier : 0x25acf28900d098d4
+  internal_properties : CAAAAAgAAAB0Z36LRs4f2mayqsNwhGkzHRL4uzICcrC4iWUBq5qfGB9I7tMGVjmknpUXvy62LwrKAO8LRcAkhDEASUaYD9xJWDqg9nl4OppsljMn+Xj4taphWIITCop6jxgYqldtVxbV04zc7uovGXpSTx3A+5yidXlCeY2gNPMXkG42oIZ9kPLIqoxP16d23N8eKAsrlhNOGHBp2oVoBmwd7RGgZmzrM1ZcXtNsa/ImPdmbit0djHrzCLcuGTSE0M+QxALSnj7cxVQ65AZxIUyCTvPrG8DiG0SwpF5fLFiD5kQl/r7kdwTMzAT4yClSxoJUn4HQX+w=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x15acf289000298d4
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

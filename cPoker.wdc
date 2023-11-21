@@ -1,0 +1,322 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : cPoker
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x3d87322b622cda6d
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  type_code : 10
+  p_codes :
+   -
+     code : |1+
+      
+      cPoker is Class
+      	inhérits of cCardGame
+      END
+     type : 131072
+  procedures :
+   -
+     name : Constructor
+     procedure_id : 4433567519277111927
+     type_code : 27
+     code : |1+
+      PROCEDURE Constructor(_Window,_ImageName)
+      
+      Constructor cCardGame(_Window,_ImageName)
+     type : 589824
+   -
+     name : Destructor
+     procedure_id : 4433567520450861687
+     type_code : 28
+     code : |1+
+      PROCEDURE Destructor()
+      
+     type : 655360
+   -
+     name : Analysis
+     procedure_id : 4433568258095347567
+     type_code : 12
+     code : |1+
+      PROCEDURE Analysis()
+      //Analyze the result found in arrGame.
+      //Check whether it is:
+      //Sort the game
+      :SortGame()
+      //Royal Straight Flush: The five cards must have the same color AND they must follow each other AND the flush must start with an Ace. (X10)
+      IF :RoyalStraightFlush() THEN RESULT 10
+      //Straight Flush: The five cards follow each other and they have the same color. (X8)
+      IF :StraightFlush() THEN RESULT 8
+      //Four: Four cards with the same value. (X7)
+      IF :Four() THEN RESULT 7
+      //Full: Three cards with the same value and two cards with another same value. (X6)
+      IF :Full() THEN RESULT 6
+      //Color: Five cards with the same color. (X5)
+      IF :Color() THEN RESULT 5
+      //Straight: Five cards that follow each other. (X4)
+      IF :Straight() THEN RESULT 4
+      //ThreeOfKind: Three cards with the same value. (X3)
+      IF :ThreeOfKind() THEN RESULT 3
+      //Two Pairs: Two groups of 2 cards with the same value. (X2)
+      IF :DoublePair() THEN RESULT  2
+      //Pair: Two cards (Jack or more) with the same value. (X1)
+      IF :Pair() THEN RESULT 1
+      
+      // No combination exists 
+      RESULT 0
+     type : 458752
+   -
+     name : StraightFlush
+     procedure_id : 4433570582736910597
+     type_code : 12
+     code : |1+
+      PROCEDURE StraightFlush()
+      //Straight Flush: The five cards follow each other and they have the same color. (X8)
+      
+      //Same color?
+      IF :Color() THEN
+      	//Card with the same color
+      	IF :Straight() THEN
+      		//The cards follow each other, won
+      		RESULT True
+      	END
+      END
+      
+      //Lost
+      RESULT False
+      
+      
+     type : 458752
+   -
+     name : RoyalStraightFlush
+     procedure_id : 4433570728329165981
+     type_code : 12
+     code : |1-
+      PROCEDURE RoyalStraightFlush()
+      
+      //The five cards must have the same color AND they must follow each other AND the flush must start with an Ace. (X10)
+      
+      //Same color?
+      IF :Color() THEN
+      	//Same color, continue
+      	//An ACE?
+      	IF :As() THEN
+      		//There is an Ace
+      		IF :Straight() THEN
+      			//It is a RoyalStraightFlush
+      			RESULT True
+      		END
+      	END
+      END
+      
+      //It is not
+      RESULT False
+     type : 458752
+   -
+     name : Color
+     procedure_id : 4433570977192944350
+     type_code : 12
+     code : |1+
+      PROCEDURE Color()
+      //Do the 5 cards have the same color?
+      
+      i is int
+      lColor is string
+      lColor = :arrGame[1]:sCardColor
+      
+      FOR i = 2 TO 5
+      	//If color <> then no color
+      	IF lColor <> :arrGame[i]:sCardColor THEN RESULT False
+      	lColor = :arrGame[i]:sCardColor		
+      END
+      
+      //5 cards with the same color
+      RESULT True
+      
+     type : 458752
+   -
+     name : As
+     procedure_id : 4433572088801465328
+     type_code : 12
+     code : |1+
+      PROCEDURE As()
+      //Does the game contains an ACE?
+      
+      i is int
+      
+      FOR i = 1 TO 5
+      	IF :arrGame[i]:nCardNumber = 14 THEN RESULT True
+      END
+      
+      //No ACE
+      RESULT False
+      
+     type : 458752
+   -
+     name : Straight
+     procedure_id : 4433572690877953895
+     type_code : 12
+     code : |1+
+      PROCEDURE Straight()
+      //Five cards that follow each other.
+      
+      i is int
+      
+      FOR i = 1 TO 4
+      	IF :arrGame[i]:nCardNumber <> :arrGame[i+1]:nCardNumber + 1 THEN RESULT False
+      END
+      
+      //All the cards follow each other 
+      RESULT True
+     type : 458752
+   -
+     name : Four
+     procedure_id : 4433573914981929315
+     type_code : 12
+     code : |1+
+      PROCEDURE Four()
+      //Four card with the same value. (X7)
+      j is int
+      
+      FOR j = 2 TO 14
+      	IF :HowManyCards(j) = 4 THEN RESULT True
+      END
+      
+      //No four 
+      RESULT False
+     type : 458752
+   -
+     name : HowManyCards
+     procedure_id : 4433579743234835592
+     type_code : 12
+     code : |1+
+      PROCEDURE HowManyCards(_CardNum)
+      
+      i is int
+      NbCard is int
+      
+      FOR i = 1 TO 5
+      	IF :arrGame[i]:nCardNumber = _CardNum THEN NbCard++
+      END
+      
+      RESULT NbCard
+     type : 458752
+   -
+     name : Full
+     procedure_id : 4433580688427753564
+     type_code : 12
+     code : |1+
+      PROCEDURE Full()
+      //Full: Three cards with the same value and two cards with another same value. (X6)
+      i is int
+      bRes is boolean = False
+      Card is int 
+      
+      //Search for 3 identical cards
+      FOR i = 2 TO 14
+      	IF :HowManyCards(i) = 3 THEN 
+      		bRes = True
+      		Card = i
+      	END
+      END
+      
+      //If 3 cards, search for the pair
+      IF bRes THEN
+      	FOR i = 2 TO 14
+      		IF i <> Card THEN
+      			IF :HowManyCards(i)  = 2 THEN RESULT True
+      		END
+      	END
+      END
+      
+      //No Full
+      RESULT False
+      
+     type : 458752
+   -
+     name : DoublePair
+     procedure_id : 4433853526745618191
+     type_code : 12
+     code : |1+
+      PROCEDURE DoublePair()
+      //Two Pairs: Two groups of 2 cards with the same value. (X2)
+      
+      i is int
+      bRes is boolean = False
+      Card is int
+      
+      FOR i = 2 TO 14
+      	IF :HowManyCards(i) = 2 THEN
+      		//A pair is found
+      		bRes = True
+      		Card = i
+      	END
+      END
+      
+      //A pair is found.
+      IF bRes THEN 
+      	FOR i = 2 TO 14
+      		IF :HowManyCards(i)=2 THEN
+      			//There is a second pair <> from the first one
+      			IF Card <> i THEN RESULT True
+      		END
+      	END
+      END
+      
+      //No pair
+      RESULT False
+      
+      
+     type : 458752
+   -
+     name : Pair
+     procedure_id : 4433854875092312901
+     type_code : 12
+     code : |1+
+      PROCEDURE Pair()
+      //Pair: Two cards (Jack or more) with the same value. (X1)
+      
+      i is int
+      
+      FOR i = 11 TO 14
+      	IF :HowManyCards(i)= 2 THEN RESULT True	
+      END
+      
+      //No pair
+      RESULT False
+      
+      
+      
+     type : 458752
+   -
+     name : ThreeOfKind
+     procedure_id : 4433882336804565677
+     type_code : 12
+     code : |1+
+      PROCEDURE ThreeOfKind()
+      //ThreeOfKind: Three cards with the same value. (X5)
+      
+      i is int
+      
+      FOR i = 2 TO 14
+      	IF :HowManyCards(i) = 3 THEN RESULT True
+      END
+      
+      //Lost
+      RESULT False
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3d8732287a32cb2b
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

@@ -1,0 +1,909 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Main_Tablet
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Main_Tablet
+ identifier : 0x26e96354108e79f1
+ internal_properties : CAAAAAgAAAAzOmTAAtQgWgl/W3gKuFGDFUZU8ath0P3AiBvih0cm+GxytdgVZ+02KNo38+4pCv1fs8gXMn2haSwVONLEUpWY0ItRp6T+aZd9anDQ/TNJlbbZ4q0NNKN5Cims/K9Khh/zf+F+1anUhFA7CAPo4P8mNT/KKlhVXwUsJWENd83/3Ok56QJVsli4k4D/QkwbbUfjuweW6JIeZhkKvRvj/PyxpgA1njIkJ3eIGgaXjNPNL15MshuEg9Bo+4EnCt8QHAO3WljqWEAkZEE9TnnkPo9uYRbbvfLhcs7Y3Mw+4KUcqehz53TRpuWw4IkazG+Yuj3pNDJCkhGKT0Llq0r+wY3PlQdhVL+hnUtcPs5d42iBaXdKjw7W2o8BsAI/D5baor2/G6qa4+Em1cD56LoKEXaq7S5DQmBLJz5eidu/H3fIkxsq0r70IK/fjc9VxXOPxPWfOh4ZPnzlRveVf8o41XIFmycoaRXgI4C13/KgzAqec+HCgtQi3NLNJSMEDgF/la9Mi5phX4d6PdXGW1/F3UdT8rLQhVdE7CMnP5L8TYo+NTUhUZHoXXlFWIce72TK1Lq+BqZfkM9sbiBxrWNSXc+xE0nNH9WOwNwCwNI3nyPFVc/6igCysDz4cjDU0Yx1iL9pOFWmhx/fNRhsHF/GwVyV/vQHgBAWQa5An+YjkBGGW32lehJzjKm+cfJ/FOjrdpEfT9b/W9Vu8NvbiHDlt8sprwOSj/SijnHKPP62RXYCMsiqiHe4QWENZ1WPDNJ/aj/LTVWFKbwMJ/x0O/5I2itSduWX9I3zcPT8QBwCBFHrZ6SZPe0zmG90+ImtiGilCrbtNiHhirWsHezKXQgRzEaPJzJkzoaGHM/KAWsXB8itwBwdasY6NKjOxpj8ARbA7hGA1FBCev/FLxMckUboi+0rzrJZttXHFLnpkJ7jPu5r4YJjI1PpyzCbLCVOg4beVfO6TLq2w5nE1ZcD1gBl6yZ1VKD22f5gEi21zX/p5CkM8UqE8aBgfxWKjDlya4/C/OpBQ2C+Ge46hXYs5e32vfxdKhTvOTWdQ+2c5VL2Nurok3SvHmxIBossrgOF1mFhYQy1Y6LNlPFLBmqI0GtFHRSHlYi/hBAhSFVVL04Lbpe9n4acRykKP5Ccr6VrmHSUpc+SBtZ3AAg67X6PqjlEfgCZyXgACr4Q+mGwT6+52/wJw44bjXTcultmk/vUWSzAsc9ayHz3m2+DqKbGoxL5cuXLHbSj+MHK2oV73yNvPVOiSagfGEsWuqCogPeKVX9MemDmH0l/MCxd+lwELd+iEnfWfd/aT1l1Q8ui7EMj/rBtbX2Dugapbc2XAYFpekUWAxLyRlAKogzE19GFyHG8Ut+nZPbq5bAraJvsGP003HsUTisFZKTC/YXPhhA5AZWimaqQq2EE5UANflaM2WuLZ9rWeLVCxYqz4qp69peAQPPo1GOEtt+ShFLLsOZ2GwTPEn49GonKMY7xbvzjmj/he311GbkkLz49u9qVHlkShNWEJs1Vp7w+Qm9Ef+s2pxlDkFsMDjDv+Tu2XocFjVTuR2sXl2QNgWIoch071qjDvzb9jibIoUpmDxcru7MMUYD9C6pHkKeuS1d5+FfBhZ5NVQh4ZAgPgjFiDM2lI5Vq4ZB6QyNcgnk2cYRDPQlKPlio0tospsBjLlbV5yFy02aflAF1qW5vq/q8sSMp2BMXWw4wc8IbgmDrdq5ArRg30g3IpIo5Lb+NVJ+VsRuiICUjIeh441emJq/RRAxn09YG5bGoByrfv0tgQTp3m6pIaU0UroG01ktX49MAjAFWUWDFhncL8ErhqXc9Rzgw/6PQ8Hu1HwSapTPe8VAGQ8tLs1MVRsYX
+ properties :
+  width : 1024
+  height : 704
+  heightMin : 768
+ controls :
+  -
+    name : STC_EXPLANATION
+    identifier : 0x26e96354109179f1
+    internal_properties : CAAAAAgAAACpWAHxaHFx29XRagMpFHSEHWL8qyi9BbHvHYo59a15WSqckvpgcxv0CWbHVWAr9R5fh4QQKcLDvFwyQXtYt/wVAHGfTVXm49u/xhX3OUE+C1f9TO3WIITHaKG7Aj+ardWSVBsz7zbjNB1EDsY6fKEQP4t/XtyMJd9woRawXSYavyenbWY9sjY6jr/Cpgl4BIxtYHTj2sFK9Vt9s1VbqlnhkgNXW6td1eI+IkonsHWViSGsDICvXIueVE7dFa3yUuYpc26aRxN7JT8fQFchYwRFneAbVxJFO/qBRZuo3Hn+iZgw6hYY8xvUiuy9oiR2tV3pnpQ9h5DF0bFZ+OTjfyOJfoYiP0R/V5ARAFMn9/0lxqPVO6fb9FSiKMu5tnhSbZ6/KH+EQHxlf6FbkX+HqE6nurXC77BDoL9xM7XDQP0mjWT+NpFaDNZ3FmkZ+txyNSz4vfEbnP30yUUswKjCbBgj/4DKLXGYs3Y0/9jt7VNGhQ==
+    properties :
+     x : 87
+     width : 849
+     height : 28
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_Image1
+    identifier : 0x26e96354109279f1
+    internal_properties : CAAAAAgAAAClsPtLZAShbnoVpwf4BrHza+rb0T/3doVQpuzSgo6cCmRXf9XWrWf75Fpx2T9GRSf0xKm6rAtENpJp36m51I4xkLZGMdidamc/nYXcHCyojX5Js0JW7gFqL8XPykLE42rdOT5KrhkQ2J0bp4Pv2x3akWXVBn75XB6QBEziOosiK3F9YMGA8/Z3Y70WRvK5eRE2vQHxq+9NWvqJjnGR0oudAJjohYezfJEiw6RlmtBNHkYFnJEd3HpaXogka7N2Gz+C+46L70uSZOxbct319ULI3YruIw5gX2bVcFcw09zfGIKNvEkCXv3ReR1Nf8dibh1izVx1sucyK+pzqPaT0fIOEyvO56HxMElrHpTs4rvIrs90mJZn6yBkREEQUUxkMHI1i6eFJRuomjO3Dare+OrQ4omfhNHZVgJgwbw+KLJxMKrKf0IslZJ4gW21JRcXMi3OOs2qUM2VAL+y9bHc/rOrlGhRj3wrXcInXryydtLCRktNOK2n9OU2Zw6K2BdOL1rkPZk/hdRacGBVFoqavGjKeDp4AKnlG/2/d269Otm+rY8AKQnX5+0i3537f64Xhnow5/za19/sH2HizSzcCfTynPP0q2coNis8g06quALM5+2wZ+xQpjLYvCGlL4dvs2F2GfYj5j7mKJGVrmtt2wLaEHGSatKOzh3f37GtiaKsRLaBJAIQ3Z9uNxkhk4vnTNQRsgPVYEPkSETUoGU0qTLZ/twhN9JX76IeY8MYKai+eIhuwpgNA7bT0fguuliwhnCMVQ6Ats5p/Ajf3WhiFg/SkcbE5OzepjjQXkdZIgElOOkGGqr/o4ecS8511Dw=
+    properties :
+     x : 38
+     y : 22
+     width : 177
+     height : 303
+    type : 8
+    layout :
+     -
+       width : 79
+       height : 116
+       x : 196
+       y : 44
+     -
+       width : 177
+       height : 303
+       x : 38
+       y : 22
+     -
+       x : 196
+       y : 44
+       width : 79
+       height : 116
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         //The click selects a card
+         gclPoker:Regive(1)
+         
+        type : 18
+  -
+    name : IMG_Image2
+    identifier : 0x26e96354109379f1
+    internal_properties : CAAAAAgAAAB+jDrD8/UYiYEWbjjYvvADCzQsTW6KO/+HaPvJtFbNvmBquEQ44gYKAIk8lj7OrlNYse8GznB4NTxXyIhD3KfMm39KqSZX9n1tplH7sXrNB4cUk2fNtUfnPHBve5skcnG6VfZef2Z9ADtYcicrAHQr0ukM5DX3VTgShBo/qkEKxnZYqmSREoK4AZOWxB7J2jrWASWnGwrkm5G6f+BsMUqnHkVZaj8e3VmhVVPVjAGc3GtpaclwjPsJmJgve7B31S5OphHZEh76Afc6QSe1tmBZj/mmp5YxPUomlVBEYlTc4ZkF9XbRLKotU9OfsjO3qzzTtVPRlFwrRdRdoixPYqlLpNTIZNOfSwUnH+f4lOjUwCqadKdeZ2U08rag6bESr1m7opfq8dGXYeuG1BgocBI5qj3DZ2g02346Avba699FQCmno9Q09ErKrXTgg+IA0Fy3nKouas1sZwXw6tJS2SAaeP3VBg6uZ3LzpCyQ1O5KsGBcyoZy0Tx4/12fk8RN+RIYtC6wzKR197Qvbx1H/PprFkcuPjaNuiYo33EBpFAOrWLKPV3S0MYdDWMZjdcRmr0nKtL5BEn1/YWi2Nqbk38o2RA+VZIcRIc/EcirLKsf0P6ZTpvFXK6ITqcmLjXxLkk0X/lq4Zey/QFSaD+XtQEujZ++JrEZep+hRnkjvkZbnB182OC2RFZCqGqY25hI3oCI8Og8U4NUmT7atxDJAkJGdbgHLuU8m41D4Ei9W4F/MwnrmS0kCMuYbd3sopJNJBlB5fYFNv8FEjGQOP3ULeh5wSoRjKw2bLzoHsIn7KeTtx5N+QmS2HH0
+    properties :
+     x : 230
+     y : 22
+     width : 177
+     height : 303
+    type : 8
+    layout :
+     -
+       width : 79
+       height : 116
+       x : 315
+       y : 44
+     -
+       width : 177
+       height : 303
+       x : 230
+       y : 22
+     -
+       x : 315
+       y : 44
+       width : 79
+       height : 116
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         //The click selects a card
+         gclPoker:Regive(2)
+         
+        type : 18
+  -
+    name : IMG_Image3
+    identifier : 0x26e96354109479f1
+    internal_properties : CAAAAAgAAAD+3uGhnBJSQ+ZA42Cb4fkjuDKNygvSshdl/AUkLkmil6BTHrtuho8kiwZG45CHyDaRFqzUpCV7EPlyQRD/cw/vBYuG6NiIa3FGlO7U5me1Sj6ToF1XmtignUFzpKv+L8+YNnts4KU/YPcn7Xyye+E8Ps9w1Td4dL71GAykdfd/3X7sbLq7geTCBc4tEYtSJ17kv/OUNHzPjJBJNVIelVQEhY6zuvcpu5GOD0JOhPUnCnNzoNV2gzqyDjkdPVTaWYlDD9lOZAvL50QkDFQtIHGztEhEqywhOWIF0IuUrLpmMgANjDiyDOS69HAvPwN62rfI0OGXS6YfB4ZzOigDfp0BLGzfZ4l0VFMadWSah/oVqfPlUsM5n80XogCz1RrgiW5f2WKh3/N4bRw6+UmW22RmlrvOBM1dVYQBGguhxAt3rgjvBLA/x8hGNoorXDmAKuiqcZIbCD3CsZiIkm7cCstlavoLIxrkwvfJiZbiSCnX4671HJkev8m9L0xv72pMnl1KZSiZXPqQmLwU/9GNHbv0MshsPW6Hm+eyZmfXuGWzImRNrQKuCrtokYqVxa3w+dhXVarGcM90ZidBkuwXvJb3W5kkSnBQg+qldMQDEvxgTwyuGhIjCC8xQhzAKEHU7eoojE2zIV2/QE3bRA/53kTxVfQUhY8lUco3fYH/WA8+gZMJAplukomP7h1QJ+YBYUtCJfTVhR/nProZgyAbv8v31ZGvq3twzrC72RrnhzxmEjEic6gYViwFx7Si6M7GFTLRdkYSPLPos829Cp+8kucfzshIWNnwOLLkf/pP5SQtBAjOuQmYouU=
+    properties :
+     x : 422
+     y : 22
+     width : 177
+     height : 303
+    type : 8
+    layout :
+     -
+       width : 79
+       height : 116
+       x : 434
+       y : 44
+     -
+       width : 177
+       height : 303
+       x : 422
+       y : 22
+     -
+       x : 434
+       y : 44
+       width : 79
+       height : 116
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         //The click selects a card
+         gclPoker:Regive(3)
+         
+        type : 18
+  -
+    name : IMG_Image4
+    identifier : 0x26e96354109579f1
+    internal_properties : CAAAAAgAAAChU2kaOK5BUP47wZOLU8cmKlePWAsvVIqMZWp6BTlaO9nv/dFPtUWXr+ixd++ZbwAxloTj3TuP4rO2iS2Ae4iV+DznphXynVK87Ra0QgUqJHw5IHToMFLUTwNY+Ogbb1vU93pqQZQTnIsYVDml6mQ5YAuUXFPZL3haFACxJBvyPHzy5jhb6Ag4hbd42uTXirCMn4UvmZTmm9H6Jdpmm+aZEDvxknl8I4HNifErQu+4Vnn72XnmXsV90EjhPRrJpfzsOLkRuGA8cfsyS907xBh/wZt2t6hfm6o2VUoyeKo8T2dfGYIz4niZ93etzG3xu0opwzeleqblfZAhIMLF4LFZ5r6YRHlB5eVHl53yPss8kNzhZqFi62zeipZAifGyr5k7gvdq8fHXYStm9Hio0NL5al2j57iEK+5KEoZK+0/10Ln3U4QERFr6vcSws7JwAHTJdwt9Ayx646HUj32l2kPlRwRevdPZgH+ub3lLP2Pd6397awWL4FEx3nxI6lOatE1vwz+vwW/6tLOu8Fz2cZWWBbbn1ZcMhxfbkrbE5xlFlKVd0igbp5uiwNaO0MJe7QiSla/8BWjS+iCNNYUugGoLFAs7eH9/maQavH02x+RikwWg5xJa7wMROcLDSShKObSj1kLxbhovynxddTKSTvR5sPqD4QqA33R0eRZWaaNuv4Df3YsXw99ft/krkIXnWWHHrzNRQIatzEklFjlypQGL9P/C4zq/FCDyz5NycIjWiPjaFKLJWzR/GBi7mzuA6wboROkSO8oWCRyLJ87lPNtu1MW0acHZCdvLMdXUUUJ+nGUUMEJrB6Kn
+    properties :
+     x : 614
+     y : 22
+     width : 177
+     height : 303
+    type : 8
+    layout :
+     -
+       width : 79
+       height : 116
+       x : 553
+       y : 44
+     -
+       width : 177
+       height : 303
+       x : 614
+       y : 22
+     -
+       x : 553
+       y : 44
+       width : 79
+       height : 116
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         //The click selects a card
+         gclPoker:Regive(4)
+         
+        type : 18
+  -
+    name : IMG_Image5
+    identifier : 0x26e96354109679f1
+    internal_properties : CAAAAAgAAAAMKIgTazepJ3cmeRRzA9EcjJwWTJZPpuwE6OEr1La66NzBv7Pc8l4TQ9IMHK6VdGnvqqrGC5tZQ/o/UN4gKoLT13tKVg0ZXG7aQsYtRFR/CNFrMtg3Y2PClfxSOGyyeh7BuO7RglDI/WdxocqqusJZNjuD4RL7TfL8EADxyukSIxuhnGzv7fJ9cKwz3VwjGhtuJMEr0WbD/PakTdB7C6BjhNdQDl4Wsy+fPxc5G95+SOOZSUXGdJdWiTLm02YQFyQFE/Zpp66zKKo/UZ5B3KIsb4pp3htx1vDGiErvzZsnlsuR7FjfBZ/PPFa3xfY8HeMw/yOAgmReYPdELwrWDHdh1TB2D40n2S5l5bB7ucweSdyfTJbbWBdgnRQRoePc3Nz1JlIHrgsteohoqjQ/OBge8Ak5V7w+ukBU3jREbz/+2ooyPjOTl9TjN6W24vaEmqD/MxM71zIS1/KZMhJOdKnPQFNhyiKbF/woHrtCSSOXEyY1wD8yzsTgA4ydtIxixCpe9JQSB4JAfSYWYYcklqfLKyeeDEwcHNP2R+nA3P6IQl6dE38X0AByzF8uzJT2TMFwpbox1ymwOjl3HzF53wz8cvJ2PNM+7RFuzxP8XpEnzeoExVvlxABYycTGdrKgYbCoZaBwhSN0crgOCOD8hxXosmzGhgYBQ92nHqT+nOYq8Kaw7c6IbqUfldg8FmFititsHeiKnW4x2HDMNl5EbuyY+U7JbtV8Bk9/2Kc++d68/Zwvz5rN+H64iJ955NNv2otud3WhoMuB6d7F9yD+8zKKsbGeDMkmZe5G0cOIXFSFcxkd
+    properties :
+     x : 806
+     y : 22
+     width : 177
+     height : 303
+    type : 8
+    layout :
+     -
+       width : 79
+       height : 116
+       x : 672
+       y : 44
+     -
+       width : 177
+       height : 303
+       x : 806
+       y : 22
+     -
+       x : 672
+       y : 44
+       width : 79
+       height : 116
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         //The click selects a card
+         gclPoker:Regive(5)
+         
+         
+        type : 18
+  -
+    name : BTN_BET1
+    identifier : 0x26e96354109779f1
+    internal_properties : CAAAAAgAAADpChqUXea9ScOpYhG13Ip+6PvSZ0wp/lZANU3lC6iQT0EWXYmHfT5/oF2waQ2v3bUn1MHTrKqyftHMV6A3CwjfQ+eL0JzjvnEXl3WkQe54CEN+nx9SAk1BpnNW6NAD0z6w2v60rJEaTWuJLKQUf/f2Um+2OptPFejVOrEJClhS7sir77sBoJFGkeFybeFMeEdkDsTuYGMTFj6XdZsLf2enzBtuWc5JOZ9mhDDnRHycFOyZDM9tihYBWZmrtlAixlTkXjWqucuotcSpk+DVxzm8r4G1BfoVzRY4n7bhxOaTqQHGFCj7gn03i4QuX12lA2veYdnP3HldeGjN850jGMiM8WQSrKMSKkQu+4g0g6Z+XiqUjvCAQpcduWO/mURnROleuXFcU+sAX+Zk1MhJAL5WsH7nfx3YHSgvh6zYcXb9ELs+SRjUEBETs5Ofw6uOLtA7TQGxQ/g3gCjhcVA+UpWUZE8SGmcrFqmjQ0hBYPAGfj5KzjAkH4qXx1UBQGtu/xjQJbyChy+P0VemB8TxYd/QdSwajq6HQ65ryxEKV0TTvCKhuJLoGaW6uLpJmsd8IlNu/MqSQMT5yUKmNLWGDTWG7BB9xam2r/Y8AVlu7UN1/dXzgPpRwtkkFQZpP2pEIIkNJPP59oeoLPr+EccyPvbBNiZiET+79RBGecwYzekLiloG9/0r43TssZA8rwYmYDzi35R8N1Brt2AUs8uQhz0Qe2Y6J8kIyszzpjXiYdrN2tjqsNG2655o9e3HdL+H26MyQKN5sd0lNUkeIWpuH7NqhT9OaoGvFeNIvH1l3EO6vwPbdr3Fzh1gUHV9GesKRxSsCK2wzgdeArNFOhWhDKtY1lv8JIdwmp4CJv2Ffw+zoDUN83mbzpN20Sbe4JriHA==
+    properties :
+     x : 306
+     y : 341
+     width : 64
+     height : 64
+    type : 4
+    layout :
+     -
+       x : 265
+       y : 173
+     -
+       x : 306
+       y : 341
+     -
+       x : 265
+       y : 173
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Subtracts $1 from remainder
+         IF Gamble(1) = True THEN
+         	
+         	// Frees the game
+         	BTN_PLAY..State = Active
+         END
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_BET10
+    identifier : 0x26e96354109879f1
+    internal_properties : CAAAAAgAAAB6t3jP/L/qadS8BEHziYvojtSuUlgMsbrpnk08FC9StcD+W/jG9k6GB3NdR9b3BH6nt2Adfgalb1saPq6GO3i0dVRNK4AI6kJHJu8789WttVZ/4Lz+fdxdkXOvizW6HKeJHAZIuwGF2Ge4UzHZ13LKLAqJhfQrK1CIHktJtTEw19m2AZtUROpKwRg3kfS6uXZsbMGdl5On0tq/ehBAtg1Vxy1PtQdsJLF8Oc3RDVDR4XE/6YnsvAjQRW7gpB/ATTplnnDIOHrMBBT6LA3vphuRKRVSQA1f/ghVYOpIczG3Hs4JNlNeb7ivkUa/HqPDYPIleN84Olvx6LYL8SYcnJ0gDeLis1iZh/WAY4u8dWUCH8XgZ9GEO9gYSIKZTxc/V2lO81eD3PbmhSOTXpm7PEiPSAp49BlWBfxwgcTa0LZGbG1R3/ArgpZxDrCbAJcGH0xuuyhmlvyPqnGpZmDnG384ETHtS7YX4JdgRRvD2W2KRr16SYk7/657EBmyVOb1MYzrCzlhPAG93XLWZBTofGNS2kRD+UPriw4+v8T8UEmJzLvv199X7xMIfybSzNKzuK3DiDstcdr3zxUshzX/pvlcLhmdAVsrMge4Lreraf3iHFmsGBOjrWbyaGyOFzF/GuVQsuDI9/9YRB/W2Bu/n8ZLufIpLl79j0wJYYGILMw3fvnwsDj4oULOzJ4Ls0tTkN6tV/H7LG6tv4/OPAVDyhkq2JYfDp5osrRaUn1oZjZJuHvbh/OynAOxnlkHkaY3jK8E2Y9vwRKNBV/lf+glVV8XnKpTWUTeK80xjOavwX2Vl77whgHegCMuCQ6IMkutgfEWf228sVUoEN6twePeIQI7PZXZLPXNWYA9nFb3jxSxjkyy5UwWydXtjSVMXQfIXe4=
+    properties :
+     x : 482
+     y : 341
+     width : 64
+     height : 64
+    type : 4
+    layout :
+     -
+       x : 441
+       y : 173
+     -
+       x : 482
+       y : 341
+     -
+       x : 441
+       y : 173
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Subtracts $10 from remainder
+         IF Gamble(10) = True THEN
+         	// Frees the game
+         	BTN_PLAY..State = Active
+         END
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_BET50
+    identifier : 0x26e96354109979f1
+    internal_properties : CAAAAAgAAAAxYi6DZN5URBZrVLjiL5Routvs5Y0SSV79+6B6A0G+61zZd63FiAj3R/uS2Uxji2n3HwqbI4MyxTn6tBk4yzndkekrU8aPuG/Qo/FXqvPVC7RSGqiSonIv6P9ImNDBLGtKzngYDiWxTM1VbDC1xJGu0sdljTRL4nCCINY9fMShCI7nLK1SCia184oUyJC/idVVPBAC1TNBpWAoCkV1XiRMQxh5tac32MeHdidLqqy1M1JC4sccm5Pjx4GGnDHr3dRhbCtHKJylmJVtS2D+0b99Neb6PJrAzXFz3qkuLVaAM0a2aIJEII8NqRuyrebCDILIU3BhnOmnW5eCSowy4nBVBr0eRbaTOYfQT/+PArq89XTOONIEMu3c5BFhqMQRznCxmxnfSomylPLDTKdMcGCp+n4LiIKJCC/9TmFriB5Hla1rM6YsTkaKQ1fe2JWY0zWdTrWrsOpfPaV5GxW9nnWAgx290X8W5mC9Tph6V9ulaKCFTVGs1SXs2MLA7FacV/QT7iobIrN+NYbiO2+ywEt7yttQZDtEd5d1AjOUHDWRv1PAqZ0Hy8jKXaIc8M02imxKRMBFck6h0hWY9Jv+MO/QibiTZUdqH9uIjvsjMFGA1M++jgRrQoE97jb2Q8G9JtMUU8e+g5ESebWBCv92ic9ZSiV8fqoUwp8Lx7pGWxEjGjwAhKrZ11v6foFpt0KNNun6iaSsrGyy0mlNMPZHhlGNQa7pdyz2j6erD1Juk0Wy6r26JOvDMgNcxM1qYv87lfKiZ0aet5NJh5jaAkhWXPIgCi/qsEQqz7h5et4VWjLrJqeubCkFN37ox7A1UChi09tWza6V5nXuD3NImIh2uyzC+/E8HBiP3XucSV10px+lJwiLDxklN/fk8/2CqaIF
+    properties :
+     x : 658
+     y : 341
+     width : 64
+     height : 64
+    type : 4
+    layout :
+     -
+       x : 617
+       y : 173
+     -
+       x : 658
+       y : 341
+     -
+       x : 617
+       y : 173
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Subtracts $50 from remainder
+         IF Gamble(50) = True THEN
+         	// Frees the game
+         	BTN_PLAY..State = Active
+         END
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_PLAY
+    identifier : 0x26e96354109a79f1
+    internal_properties : CAAAAAgAAAAho0uwjp2v52oqC6QO4fichcbVq5ph9vXJ/V3JcyNbyK9XiMZvP/mmWx9yvumKq+PfrpcMaWnqD/Ys24wsv1nOcwA56RIy/eHtR/tBvQ9+pfg2HMS0OKF1lcQYO8uN04XbglbQIAme4/CR/avuKOKa2x9GjtxnDdgUhcILPv+NS75JujEgbd0hVWpaEXgJlv+VCu0EsLoovGXJ6Rogi2MGp+WG8FqKibgqwQMugnRs6NQv5IRX4XGauPfbvaSXgdnX9TASrUziR2N1HWfdJDRXW+MGOGz1ul8R2aHZOIqL3NLnhvSeGp8oqR7MSYRSA21p+QsaltPjAnrZaHWBj+4UPVlwMv6HNgOwUz4lERFAEGURSuCQ/B9t5oGCnFfLYfTP2S63rg1xmF8khYovPIOH0n/jdrbs4JTW5RIsYRkhXGZmhx5amyjW4qqQdey5WAFMvTgHbS5ucsVrphR01NTcBhTMRH2Ma6oxJ8UkjVkm8m0A90qHtJW+/ByB/LRHypA2+abEw4VFJkSfj92JFX2/JIV1hUacUT9ysut/zzgLKsVd7rucQIPtEzP9UWFapc/b3WlOh7C+RCF6tIQmW1vu9X/iLYkf+j9O1zX2FJmFm4LpNCmPVqK7yxDWQJIe9/2VvSEs14rdbZq7vClpRMLTuwRwMcqY9GJ571+f+NI2CQQ1OI8HNd6q/1nkwlP8y7g2zkPxeCyFxNmrrfpT6XTq3zU++l5+3pGknaagxg0TDszKsEwJ9Vf7qV58f+Q6wFCSLS9FnAfW/OKoDjL3BRV9WfdI4mJK8W4TUmBLXF9Mp5HVPiyVTAkc4ewTC2IIFMI4g/fwNCOBCTgorztqigC3ozzUwf+CpZ3GxnFEbHpvX28OEZpqqCb4pqgiirMuQwXwkxnfbqhH64zLsqJS20MKVDXxjTFKUvd3coQawNtrC0z9mfwjilDb0RcUE+ODqQ9vchdNKGuDMq3wxdd1dJIopRTCLEn4adT6V8Vihk4pdKb932unCmCUx2viZNPYlbmJCKW8EHyhOmIyRlPnWeWmCMEnNHfDk9xASowPecmkegCLfuTQhlL6MGU/+3PO4Ya7Hkys/rXwrWD8dNnBEw5oEyftABX6LokDeqheug==
+    properties :
+     x : 273
+     y : 430
+     width : 127
+     height : 41
+    type : 4
+    layout :
+     -
+       x : 234
+       y : 250
+     -
+       x : 273
+       y : 430
+     -
+       x : 234
+       y : 250
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Variable
+         i is int
+         
+         // Initializes the array of cards
+         gclPoker:InitCards()
+         
+         FOR i = 1 TO 5
+         	gclPoker:TakeOneCard()
+         END
+         
+         // The button is grayed
+         MySelf..State = Grayed
+         GR_PLACING..State = Grayed
+         
+         // Enables the change of card
+         BTN_CHANGE..State = Active
+         BTN_CHANGEALL..State = Active
+         
+         STC_EXPLANATION..Caption = <§$0002§>
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_CHANGE
+    identifier : 0x26e96354109b79f1
+    internal_properties : CAAAAAgAAADrJOaHpwdoxHPBn+in/szZor6FO5oZ1USGjBUlIXXRxAzHFIi9TCHzsAO7JPOJHQDVClyqRuVT3IYB2A3sT7lFFPpctdm71ufVNG0t0b6+CFcbOEPXD4GmDe8DTdttgjq4wmABBXYZm1PMJ1EojKSlKAPpwwa/RVudVL5jx6dN7Z/0Wr4rIcgtOx29SGsY1btVLEqEwFPkd7J1WYWezbhOBpAyFs4XOTAuSJoeOwTXl9GmzyLrPPOP7KjJ/OAIFe3VfD0BbEO9Iaxk0XJp4t14ZxD22zBtciA8+fTIGqZYJcPSn0+NhypC1JKVB4TyiXmkrzl+OGcUxYe2kUzEgEHVY7kzJLXSXtcqM08LJFXMupp/aYN0HWowowsqYRVLReFDuPLNy82DfHQkorWc7DIo0EiuJ+Hvvc0ijLMKSUtbRSZdgF9eyY/HE5E3K18GTUJhz+a5zjuHPnJd+I1HirEQhL0sf88RwYwO/KDNDTGsSucHq7SwR/AzJy4XGhog61tmOi+ylTEfgg6P5zQz2b7bVMoXeHBvEppWLJKp4+Hy8LfIzuBo4eOXeq3ZnxIawci2QSiz/gwMQQv1k/QGFr6DuJjUgbIu9zuHeo9ZFe0TN5Vi8A7kdehMKS4yG1HvCWpYuU99ldDhGWKpji6Spzyg1UBKaLX8gzrfxvijC6TayNcaS3D8znQPjllhHpG8ONBh8ST4wwWQrylKl+LyoLTMPaZvkuEo8/TEgpiVEOQbrmr0hQRTn8GSgr5Oa/08o0lq6UlH2T/RrDD+i47W/RRjyiRv+UeCsIflSt7AIk6q/NeqgF6zgE/XxGGPvIYNxsOB0lAZEYPAxdNwtcoSTXRehRMRoq6rIhd5xENQe9K3Nlu7qMpLSqzXSI851pFztyqgmdEnGuMMQpgq6sDAElLu78cloSMqi41yAgLUdO2RwDkKApTOvugJ1zlPY1gsRtPsQ4oS1211G9pE4HWFw0dGKBAOxYOcXRU9GCg1dcvV5MuiVYcX3nprxQ4HfdaKNK0zXtu/aFTWhkyfHB9JAYpVwrHJK1bJgRet7wxlDkYfujrcfiHUrN0NMVA5Z7wMWwviz7emVtrgd6R714w=
+    properties :
+     x : 449
+     y : 430
+     width : 127
+     height : 45
+    type : 4
+    layout :
+     -
+       x : 410
+       y : 250
+     -
+       x : 449
+       y : 430
+     -
+       x : 410
+       y : 250
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         //Multiplier 
+         eCoef is int
+         eGain is int
+         
+         //Changes the cards
+         gclPoker:Change()
+         
+         //The button is grayed
+         MySelf..State = Grayed
+         BTN_CHANGEALL..State = Grayed
+         GR_PLACING..State = Active
+         
+         //Analyze the result
+         eCoef = gclPoker:Analysis()
+         
+         //Depending on coefficient, display what was won:
+         SWITCH eCoef 
+         	CASE 0 : STC_EXPLANATION..Caption = <§$000d§> 
+         	CASE 1 : STC_EXPLANATION..Caption = <§$0003§> 
+         	CASE 2 : STC_EXPLANATION..Caption = <§$0004§> 
+         	CASE 3 : STC_EXPLANATION..Caption = <§$0005§>
+         	CASE 4 : STC_EXPLANATION..Caption = <§$000e§>  
+         	CASE 5 : STC_EXPLANATION..Caption = <§$0006§> 
+         	CASE 6 : STC_EXPLANATION..Caption = <§$0007§> 
+         	CASE 7 : STC_EXPLANATION..Caption = <§$0008§> 
+         	CASE 8 : STC_EXPLANATION..Caption = <§$0009§> 
+         	CASE 10 : STC_EXPLANATION..Caption = <§$000a§>
+         END
+         
+         //Multiply the gamble by coefficient and add it to REMAINDER
+         eGain =  (EDT_PLACING*eCoef)
+         EDT_REMAINDER = EDT_REMAINDER + eGain
+         EDT_PLACING = 0
+         
+         EDT_GAIN += eGain
+         
+         STC_EXPLANATION..Caption = StringBuild(STC_EXPLANATION..Caption + <§$000b§>,eGain)
+         
+         //End of game
+         IF EDT_REMAINDER = 0 THEN
+         	IF YesNo(Yes,<§$000c§>) THEN
+         		Initialize()
+         	END
+         	
+         	// Subtracts $1 from remainder
+         	IF Gamble(1) = True THEN
+         		// Frees the game
+         		BTN_PLAY..State = Active	
+         	END
+         	
+         END
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_CHANGEALL
+    identifier : 0x26e96354109c79f1
+    internal_properties : CAAAAAgAAACUoGTHVqfbxgWy7gul3QZVtTLlXkzcdXjDfy8wHlBBbWBxZeFinARye4PjxVF9aQPOy7MS4YSyLyWM8n+cSnMhiAtRl5aVPxT3RYkI9GIwSfrrzblChZuiiKk5DvxvLnEmHnLq3yxdUOcmJpfI0rvv95qO3eSZ8eM3KXuQ5sFdFEjFWdnreRLQJKdIxDIAxjoTLGr0CQEQiIfRhP6tJF+VA3yw94nFomonjrHyx7B7juMQgUkuqnRW9gyU/GrIhd14Xj4QGGIJDFhn58j9U7EcrvOc4Fui9JP5pJhR/j9SIeU1vMrqU2Wbjw2OMfWdDfGCNXUNr1U/RJVP3qEqdCH6ErutWle2UmQtLbEWdIhmZ1H9s2vFAAdKlLdfHjnh0m8VTDY0hYZKIYGMZc0jXcKH6SRTjNvqOhvp5b+bu9TsmV8LeZSK69sR08wNhDJexVh3BcVvdZ9o8mLhr7V9AyLOt+7Q9lDYJ7JM/O6KldGmgT/KtbWlVb8cVckMYIH3FM2h21dHsQl+CptmAeVTMctRkuAfhLtklH38PTssxJS6BcVBlshdsuYlAfe2cPBCD3EzTIU/4B6bw6hG3thYedcrjzmsto5ILBWMhSLEZ1utUl9hBvRjgrU4ogsuF57YWgsX+Y5q89yz0Fk35gKkB2xpwT+UkJkvlaigvjvrUMXphtVn4etT7Epis828qGRjLARViG8Vlam4Wr83nXA+iFiYcAjfLi8PcoYiQVd2v+BT1wi/9lcPlRWDzfJcX8A4k9yfkRwDp1ol7YGU1J8mQdLttIP9ZhIEFsgUxkVBlnG+BWk7CseSFepD6W5T/jUwcO+Jv0xu4LF46R14Ncq+ONgpvmVhoEloC50f8aR7Jyvr8qB9Zosw12ktRVnmhP+Dv2tHcMWjcjxyaxEhv70c+MZ1YpGs/cKgGAnJQ8b+4JLcRpWjJ5aOJJJTv0m5FNm2R8mK+XOHR/Z0zzO6p86lMFUkQJh5QuU85bh4eMemt07lKI8psEjruh7qnV5JjER0pNejChb0eXQZ9JYHc/Hqh0SMaU2+5qmOj2mbwUE0Dm6qbQK3JX4yGtIDrwtKuUtVg3Qy2rEk+15O99/gw/wil+E=
+    properties :
+     x : 625
+     y : 430
+     width : 127
+     height : 44
+    type : 4
+    layout :
+     -
+       x : 586
+       y : 250
+     -
+       x : 625
+       y : 430
+     -
+       x : 586
+       y : 250
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         //Changes all the cards
+         i is int
+         
+         MySelf..State = Grayed
+         BTN_CHANGE..State = Grayed
+         GR_PLACING..State = Active
+         
+         FOR i = 1 TO 5
+         	//Reassigns the image
+         	ExecuteProcess(IMAGE_CONTROL+i,trtClick)
+         END
+         
+         //Starts the redistribution.
+         ExecuteProcess(BTN_CHANGE,trtClick)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_REMAINDER
+    identifier : 0x26e96354109d79f1
+    internal_properties : CAAAAAgAAABlfZXmXUq+ks9L85jeTOycAWLbOnFPcUFIJhqAPXW3usFasXzWai4mLNXxAP1xNNwQhyPRcLLK7uaHtj3P6EIHrmDmWR9IMisseFsDua0+8jZGdw8N5rr6rm4JNldoTUWUDFRJ0GeiS6F7C38RFPNhzdaip4QyvkX/2M96Yl5ysc7hvhxRUQosu/AjiUxegrvJ6HHYBoaWGHwbEhqxi3SBzEOP1RhD4JcfJCskc5MXAbAR8lfc0wn+rtq4Q8aza0fGaCDpG0IiDfLBCpGi1ql4YsOtS2so9twBDyZH/o/8K8MU3ToqN36FyqfiTkuIRebB6yYnPNb3pF6k64wKM4n+hhf9XP0mMc9/etbr7HaQEGorSdLRkEpTl5CzIskzOwTS3D/Kv1RIdHsKHKWo2WsX1SCYJCvmw9spPs7GHeBGjCvZuSwSVAO8MH99acLtbjG9n3r0g3wvUhwWFRhAIfOOde2V4Q8OAHT59uVq7TNN1H4Ns2gPussf9KNSR45WbKVZ55LU0J4Xx0uBT5FtR+1J+PHiP7K13ca+vkJT4gVsoYCq9jRc8mpfF4MmOy+YMbllTmDGmJFy9lCvh2beUDJvobnDtxkaMggvV4m2EZTYSa/5p2ktehVBWyGb7LosxpxDMzdUy25/RteuXvGhkSJaaje3RDL8wpRlZJW2bAKWyzhD8yPtmnaH+lI9d3dhGsGr/Q47RbK30N45EESGjO6a9efVa+r1DGKuEzJ//gQ24R42vpCgDDKAHZ/HIT9o8dO3zjhRg29K6LGL+G9l8ZTEVUwGJnr+y6K6rJ3tFiPzZweX4kp1F1D1MvEUhhs4tYvm+JbynL2RtiAkYbjLUenA1BW9GFoTg5TaiI4RdKXvmVU3ImJh0WZMnszPKvUJGY6dZG1VOD0ywuwEfkMTGsRFaDMWlkq4n5AXVm2Sble1DTcmjG2e+Ac0vOd4O7ICMO/s7/u+3IarUSip+LDiInhMgW3WXNER6Tn1ZF9u5l76E4Wm96jwx5fcM8Bbshfj0/fsXV+n43iGluHgA3JwRZXdB9SePUWVxZgvNr9xnbBoB62qI3mywwHpNYIhBJErNvkVN4E5zDOnxfSz804tWTjtr6rzG0KxB4Y0O+2KIa1o9r1k5A==
+    properties :
+     x : 281
+     y : 532
+     width : 110
+     height : 50
+    type : 2
+    layout :
+     -
+       x : 242
+       y : 337
+     -
+       x : 281
+       y : 532
+     -
+       x : 242
+       y : 337
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : EDT_PLACING
+    identifier : 0x26e96354109e79f1
+    internal_properties : CAAAAAgAAACd06CzIzcKioNThm5OT7BRNwScqB6z1fyoGatzevVdMBJlk8fvpnJdIBqsjV8ft0Q+6IUT5N6kkde7Rjp8J11c4dwVtcWW3445Trx8OBcQsO4aFii9GWf4X51F0oqxFfk7WEhOGjDCyuIgosIMjgoModM8W4sJzuqrnllUE3DMXaTas9XcGqa/t7uCdvZZfuUGJSCMCh9ect1Hj7+z/TwnZOMmQP6Q19hVpH778eiyr5lWFxOrtUycuzAtbYUDYqPsrhEUOOC96PFMaqNf32iRGqWbZOpWN7iS8PFus0RMgkNAi6y/Sv2IwN1WTR0Jt8P8beNb0AGWpthGQPGWtLkibvY/V5GbvIWTlOM/nEHpjqY7RE02ZDiRSL7kK6My5MqDXnBGP95XmSI+D5I8B/VmS6F5Eqqi+ec/UE7TEt7SuMv3wgh74M3GiCqpvaB64VeHm7cyeDnwcKlJBoyduCovccKRdBa9YH+W/1Bf3mc5GWKmFlsq4ZPiAZ+v+N5rhTS1nHQ3G55INMS3CCLw4dcwRoVTYA5Fa89mIK6UYItdGn2TGKyHJn7Ssz8rDKryYWXgWsgwN3f0h22Y2J/54yFlnHZ7uYsfLgmgRqHHdP4hTZZyPOJ8Y0xQzCCgA3HQIARmygmlng4faA3s37hwrfgElb9UTVuS4Iwg4dFSyNcRM6KOGHci0Hih7iDoyl706qGR4kzq+rG2q0BfAZGD1aL7ue+xoYIlvHSixjaJHLX1a7ewNa5OrhL1tb26U2h8sZt2RBOsxmqODEzRu0BwIxJT1Hzn6WaPCUQuT5UCXjaFGsQ0T9brGBwoJ4VhiXSeBoeB66YWfPRzOb0PDuD4+c/LGXGJeeLx4ADjGIffPWjPnjHLzuRzALdjQxfzwCAs1zACX+VUMHShID0eT7GLOSHeA/WLuthFV95AGv204O2kiTsjFB/h4yVVJOahfuCCbsfVFJ9nD0w/khibZZr8Zvh5xLHjCAioMc/J522fBfCOgOHqSBP0hmXRPbKle1HSvB2QYh5Z88B5kpRjI73q2QwwuuUN9BNKvHwPsyoCgImQACwK8qENpGyOBDEgr7ZvcWWAQNYPGabeF700EgEpqTn9Kz2rP+2ymfpY4nsS/r5JI+hmLeQXRlO3rQ==
+    properties :
+     x : 457
+     y : 532
+     width : 110
+     height : 50
+    type : 2
+    layout :
+     -
+       x : 418
+       y : 337
+     -
+       x : 457
+       y : 532
+     -
+       x : 418
+       y : 337
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : EDT_GAIN
+    identifier : 0x26e96354109f79f1
+    internal_properties : CAAAAAgAAACloKUBjxyzeIHMQ7IWaDWD66ezHFQA652BgtS6eVfKr5mSDtLkTEzMMx3F5O4Wm38lfE10/AspGG2CCPBW0ahrt88qBQxTGLELrP6OKluWSuYbduY8sw0gzbvtMx0WosWgupcMq3d8Bj7AEfA0f+o4FRKK3Rn4xlQoXXX/doancEWu/v43aUusAxaob+miLQAPD0GsmheaNGmVS/ueHJ9HR9qor3iZbOeK51Q4K6DmuxcEC/G3QjRXWQJaAlQdkHMuh4JC/LnTOQYwMu3NXbI9HcBkQuxUvLrPICoc6cJp+i9t1bLis4U65khAn3zG76z/IavRi28Q1vBYw3IzPsKZP10L9atCIFxqfNOfp6HWc3R9DYNwCJaCjJ9f6cWTfVxYXfFYky4IrB2QGMMuL4NO78jGDBDigHV3nlcYBpsByjFRPx9s6olBSFm7Xj4XnTptMJ7ZG9jRpdUDAwoqahde5aQhId4taiQ2MmLzU6RrrQwiJGxGIL+COhUA7DldZcQ5yUHmAO7lAa6I14hHXZIJkjuxNIuE+c76isYHq5mYiZg1aIXlSHlFpYhKAExuNPoZhCmijFmMVj6OGzup0UDGfR76WR5zNDqVUu7T/FyqeqnWp2qR/TxlbWi5UePU0X3FXjwlUcL9c3BqnGxI+4+D2C+/LyJazvfLRfKY4secmAekxZenTJ5ggRyRxraumRokyJXAQ3GYzk/ZSiPBuTfAvgGo6/+pBju9WIWVDF/kuiLsqOw51I7IFFWFaZos7n65jpR82V6wxX1ZBlpGP/NS9WiSAaNx8b9dqbx6WtR+6TM0EETE6L4P2C02ZSQob6R2MwVGmbD59mq15b5aMRRQin1GDZGrgM0ALOjXaUJkEfzJm3omZDESqjVk4FzOnBkD9SA8K3D/RUggFB+lYQDnDHXeSIG1gSvJeJ50NNcBpDizs0H2vQGoWUTeivhcN+46So61YGR9cyfv+ryS7tU0aVuCSJvsW6wmOY5he6RhsU7Kwcl9nkcwCipQKbtamTDtTKXzAGIhL985OPFSNtoq3VsR7AGBkTqCbDsbPLYBpQvXfbaSp8ol2skI2IqW8QN3JEm9y8VYm26VawrtSWo1E5yxlve0gU+ewCHzR2hdhFlGCOrJRqar
+    properties :
+     x : 633
+     y : 532
+     width : 110
+     height : 50
+    type : 2
+    layout :
+     -
+       x : 594
+       y : 337
+     -
+       x : 633
+       y : 532
+     -
+       x : 594
+       y : 337
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : STC_Remainder
+    identifier : 0x26e9635410a079f1
+    internal_properties : CAAAAAgAAAARfXcq2RtLttTWPLTCBQh1To7fQXa8ZeSbc6Fs6599dJppDxe6HJFyl98hxIVK2WGCXOiEhyJ8vU0z1dD+Kknic4ocQb4k2M/1Un/Kz6aF3qoodd8HxyLBGLGKJtU/dGZ69rVwPHrqyWWOnWf9B5tj6jJbX77+BnruFdHlu4KauvgIsqMqIGw5rQUiCnvhODC8NkqniNknK4OrC1U1roBV4soolWN8Ry2mrUvl+lWe+uOAZzLAn3BZDsoKDZ7pt97sWq3QUHA2vla/Hekztzq/KeiCZWPmGhMlhD5guQOT6bpQUy4EfzmtUozK6o0fps+M9bMyYoEPAzTj+soc4cTm3HMu5d4tUZQutc9CY3jf59F9FD4JtHL44W1qpHPPrwABl2JYqKniSob5gvcAI4DeoPNUESuO7TvD8Dzjb9l4NPIxpuPUOb/41DMQtZ3IHxCrkaFItbRfzg7wCA==
+    properties :
+     x : 281
+     y : 495
+     width : 110
+     height : 26
+    type : 3
+    layout :
+     -
+       x : 242
+       y : 309
+     -
+       x : 281
+       y : 495
+     -
+       x : 242
+       y : 309
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_Placing
+    identifier : 0x26e9635410a179f1
+    internal_properties : CAAAAAgAAADL8F39wAsBdjYCu4UBKqZs3cEBl3ddB8rQ0qFieVOMuo/FW9xOxJKpWtoLO4AhT6id3Vh7mwh/AdMej06Mn6ptC9kzGTGXzkwFvZMxTZEDqwJJb3F4Cgt7epjIjdA0tkXeJTCRsq4o164/Jt1fflVyuLbQRpidzs6Coqz+zv5P0JtJK4vbUIOun/IMotenHuUE5rux019uhtZWtlSCDWMTjwcjToWWTAgsazwWqfCgIZpbQgLhxS7nzKWl7XrB8M/p4oJOrUQHbEp6GAwDl8XGD2qzGpOgPX/3ggnTYpda2e06XXIlWIwn1KZ4PRXipqID9OvAb4ZaFbK+I9hYZsW4ajWDGqMZj0H7CLcFXQoka43AKBy4fNPobrJEA83uojMgRISEaI0TXK1gDjyVo8UdLcDT4QmJ+CNsh/A9Uu5Un6sRFPrs3dWhZ042S2R+kEHFXgXJtDew
+    properties :
+     x : 457
+     y : 495
+     width : 110
+     height : 26
+    type : 3
+    layout :
+     -
+       x : 418
+       y : 309
+     -
+       x : 457
+       y : 495
+     -
+       x : 418
+       y : 309
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_Gain
+    identifier : 0x26e9635410a279f1
+    internal_properties : CAAAAAgAAAB1kJo/04Wzty61dL0dyrIqDeeYL6m7LEZd7+tRAiNmiC3yZvp7Y1rwrvfKf2I+SWLrSA/8FVgzJLVfDnUHk13LFo0Adz0YtbtBNyUkAc+5bsmAMQDIr/2/EaAUmGXIMaXiYrwLPVMxLjdM4eZ+8qPKFn+eF8wfGEdT0XQimctOr3XRWKtuIg1GnOoJUQ3lyI0a7BVaMnagb7y0aI/MghvPlU3kaDf9GI1dihmLn0hltGOIi6xwVz2wuQ/pjPbtsz6iEX3kCtTEkUtcqInH0dD1CHEGFpi8JGA4NFEysPVvzOIX3qrQ2MmYYfZCYEv0KbEkr6LseoSL/Emom6sQ2vbd1Tx+7rg77MKUYMFwP+pfUvalMeCv5I47geZa2O1Mi/5G7FhBMEF35tes9d51ewF81qtR6UcWGq4Z/jkBQFULi6nZmk/zBNxb9VbsrLBaX0IYU/DgUA==
+    properties :
+     x : 633
+     y : 495
+     width : 110
+     height : 26
+    type : 3
+    layout :
+     -
+       x : 594
+       y : 309
+     -
+       x : 633
+       y : 495
+     -
+       x : 594
+       y : 309
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_Separator
+    identifier : 0x26e9635410a379f1
+    internal_properties : CAAAAAgAAACzGHfMqe9V144VU0MJ+jRMfHF+DO60UqwWyxga6VHf4/Y/olwv+RKKtsm4X+p4CM46tpXXWiG8qepYxGoQoDazMuApvl7Bpu0al3HffLK/oO1zJjLb17VJHwlGyRmcyZpl1oD1eV26P1KRXBnXRvB4EXjq4h5SpnnTOypI31DYPwjQgOGp+snUXNuJWXQn/psLu00fqJUR7W7swCZb5felAkaKHLK7PdxVyLp+RfhDyDO4IeFkN5HACAZlWb4HvtzzYfflaLHk8LksIweKBmYum9+DdBNo6Sn2MypIKbjMDL3T+8QCY+F1Gp1XJieNJDXw5SqBLPkoltRAxR5gTMBIJ67/8150FvCfxa3FHltNXG9ovNZBvmLJhzEtumF9ZRS5ZDLb2+KRcSYuLp+LoyaflEzTG2ZMlFF7
+    properties :
+     x : 453
+     y : 32
+     width : 116
+     height : 1
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x26e9635410a679f1
+  internal_properties : CAAAAAgAAABdzPmcPkG2E2XqljQbqe+N1zvdWje1MAZgBqbSqsM9jnBwlVK1CL3yGM79zG9+4/wrXwpCjDcdYsvJB9E+Ts0txUXKSRhHLyTpcn3NmsbYVsj7bZDMpfLMCvYplhUs7CxaxN9ivy60HLhVmOPTaoZp2RrnRxLE1sHAk2HdGob1/ZJCOPjDjPrkRU7ClrUOJAramPD/mL45hyfP1aI92AOKrnhmC/wC3ET3ly2C3RsmAOnO7/RFMNvE6Pu+mal81dYKQG1+OzfvMDv+w/jgj8gTd6FsRNfj++hLXrU+lVGoBd5UpXTb1eLdDkLCP5286vVpNj4Zc6CQbY6P4GrBq47g7K/4anaR7JCWKrSLyJGpUDn7tryQIH/o5mLl3B5gZH9dnLcsqNVc6AGsx0r1LKLTCsH9ZdzoXb2rGeR8nn6yQtc=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x26e9635410a479f1
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_NEW_GAME
+     identifier : 0x26e9635410a579f1
+     internal_properties : CAAAAAgAAABL9Cr5bVm7C/o84h2gLj8pBRgiloIbfAlMKzHWeA8FXqlpg1qGBjf1AwAOFS2vwimCV4yA87XMCdZFlFx3pA7vRPS7u+V7zd0Qctz63P0B5d5IG0ADgcV7cu5gB9Y+JcCdVmXthK0Oyt7ppSjHzYu3uDh77TZ4Sla4WhkR8SqPDUBfILCNe4i+MCFx15WwwS3j1/ogid8JN5x6Z6xU6eGovftbiD6ulsQ73xBcr51df3IjOQm7IlZgEBFII44WzN9dXOrl09MLwax1svr9aoBaRYVJQ2ZqWLdUDoWDrOSxCWO6Yt/pHia3uUC/kGKeaEbH
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          Initialize()
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ layout :
+  -
+    widthClient : 948
+    heightClient : 456
+  -
+    widthClient : 1024
+    heightClient : 704
+  -
+    widthClient : 948
+    heightClient : 523
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAC77C1fim5UPKYVy8uitqbJL1GYpzPLytfk1u53hakL2/dStxM4YtdhVxH0n6jgQj+/bacOi5lu5oZJCW65bUeA+VOczBsiHjLS9h5cLRJ+geeI2OlbyEksAXL6
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      CONSTANT
+      	IMAGE_CONTROL   = "IMG_Image"
+      END
+      
+      // Global variables
+      gclPoker is cPoker(WIN_Main_Tablet..FullName, IMAGE_CONTROL)
+      
+      // Initializes the interface
+      Initialize()
+      
+      IF InUniversalWindowsAppMode() THEN
+      	OPT_NEW_GAME..Visible = True
+      END
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : Gamble
+     procedure_id : 1650959950873459185
+     type_code : 14
+     code : |1-
+      PROCEDURE Gamble(_Val)
+      
+      // Subtracts $val from remainder
+      EDT_REMAINDER -= _Val
+      
+      IF EDT_REMAINDER < 0 THEN 
+      	//No money
+      	Info(<§$0000§>)
+      	EDT_REMAINDER += _Val
+      	RESULT False
+      ELSE
+      	//Adds $1 to the gamble
+      	EDT_PLACING += _Val
+      END
+      
+      RESULT True
+     type : 458752
+   -
+     name : Initialize
+     procedure_id : 1650959950873524721
+     type_code : 14
+     code : |1+
+      PROCEDURE Initialize()
+      
+      EDT_REMAINDER = cnInitialCreditAmount
+      EDT_GAIN = 0
+      EDT_PLACING = 0
+      STC_EXPLANATION = <§$000f§>
+      
+      // The button is grayed
+      BTN_PLAY..State = Grayed
+      BTN_CHANGEALL..State = Grayed
+      BTN_CHANGE..State = Grayed
+      GR_PLACING..State = Active
+      
+      // Put all the cards in place
+      IF gclPoker:ReturnAll() = True THEN
+      	
+      	ToastDisplay("Game reinitialized")
+      END
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1550dc46019e7209
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : No enough credits
+     index : 0
+   -
+     text :
+      en-GB : Choose the card to change.
+     index : 1
+   -
+     text :
+      en-GB : Choose the card to change
+     index : 2
+   -
+     text :
+      en-GB : 1 Pair of heads (X1)
+     index : 3
+   -
+     text :
+      en-GB : 2 Pairs (X2)
+     index : 4
+   -
+     text :
+      en-GB : Three of a Kind (X3)
+     index : 5
+   -
+     text :
+      en-GB : Color (X5)
+     index : 6
+   -
+     text :
+      en-GB : Full (X6)
+     index : 7
+   -
+     text :
+      en-GB : Four (X7)
+     index : 8
+   -
+     text :
+      en-GB : Straight Flush (X8)
+     index : 9
+   -
+     text :
+      en-GB : Royal Straight Flush (X10)
+     index : 10
+   -
+     text :
+      en-GB : " Gain: $%1"
+     index : 11
+   -
+     text :
+      en-GB : "there is nothing left to gamble, do you want to start again?"
+     index : 12
+   -
+     text :
+      en-GB : Lost
+     index : 13
+   -
+     text :
+      en-GB : Next (X4)
+     index : 14
+   -
+     text :
+      en-GB : "Click $1, $10 or $50 to bet"
+     index : 15
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,318 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : cCardGame
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x16e9635802488a8b
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  internal_properties : CAAAAAgAAAAb8HaVbu2AxmhlOEsF7scMqJh1jDZ8NwiBdFjFp1kQDo601eQGzl3hi75zdjkQ9yj1prQk+mEqpYrvtU9JOyszchghMZ30MvM=
+  type_code : 10
+  p_codes :
+   -
+     code : |1-
+      card is Structure
+      	sName is string
+      	nCardNumber is int
+      	sCardColor is string
+      END
+      
+      cCardGame is Class
+      	arrCards 			is array dynamic 	//Game of cards.
+      	arrGame				is array dynamic	//Game distributed
+      	arrDatabase				is array dynamic	//Copy the game for going back 
+      	nbRemainingCards	is int				//Number of remaining cards to give
+      	ControlNum			is int				//1 to 5 images
+      	ControlName			is string				//Name of controls
+      	WindowName 			is string				//Name of the window
+      	bStart				is boolean				//The game was started
+      	bDebug 				is boolean				//Used to debug the code
+      END
+      
+      CONSTANT
+      	cnNumberVisibleCards	= 5
+      END
+     type : 131072
+  procedures :
+   -
+     name : Constructor
+     procedure_id : 1650959968054643339
+     type_code : 27
+     code : |1+
+      PROCEDURE Constructor(_Window,_ImageName)
+      
+      :ControlName = _ImageName
+      :WindowName = _Window
+      :ControlNum = 1
+      :nbRemainingCards = 32
+      :bStart = False
+      :bDebug = False
+      
+     type : 589824
+   -
+     name : Destructor
+     procedure_id : 1650959968054708875
+     type_code : 28
+     code : |1+
+      PROCEDURE Destructor()
+      
+     type : 655360
+   -
+     name : TakeOneCard
+     procedure_id : 1650959968054774411
+     type_code : 12
+     code : |1+
+      PROCEDURE TakeOneCard()
+      //Takes a card at random and put it down
+      
+      lCardVal is int
+      
+      //Takes a card
+      lCardVal = Random(1,:nbRemainingCards)
+      
+      // Fills the array of game
+      :AffectGame(lCardVal,:ControlNum)
+      
+      // Puts the card down
+      :PutCardDown(lCardVal,:ControlNum)
+      :ControlNum++
+      
+      // Reduces the array
+      :DeleteCard(lCardVal)
+      
+      // One card less
+      :nbRemainingCards--
+     type : 458752
+   -
+     name : InitCards
+     procedure_id : 1650959968054839947
+     type_code : 12
+     code : |1+
+      PROCEDURE InitCards()
+      
+      // Initializes the maps 
+      j is int
+      l is int = 1
+      
+      :arrCards = new array of 52 card
+      :arrDatabase = new array of cnNumberVisibleCards card
+      :arrGame = new array of cnNumberVisibleCards card
+      :nbRemainingCards = 52
+      :ControlNum = 1
+      :bStart = True
+      
+      InitRandom()
+      
+      // Fill the array
+      // Heart
+      FOR j = 2 _TO_ 14
+      	:arrCards[l]:sName = j+"H.png"; :arrCards[l]:nCardNumber = j; :arrCards[l]:sCardColor ="C"	
+      	l++
+      END
+      // Diamond
+      FOR j = 2 _TO_ 14
+      	:arrCards[l]:sName = j+"D.png"; :arrCards[l]:nCardNumber = j; :arrCards[l]:sCardColor ="Q"	
+      	l++
+      END
+      // Spade
+      FOR j = 2 _TO_ 14
+      	:arrCards[l]:sName = j+"S.png"; :arrCards[l]:nCardNumber = j; :arrCards[l]:sCardColor ="P"
+      	l++
+      END
+      // Clover
+      FOR j = 2 _TO_ 14
+      	:arrCards[l]:sName = j+"C.png"; :arrCards[l]:nCardNumber = j; :arrCards[l]:sCardColor ="T"
+      	l++
+      END
+     type : 458752
+   -
+     name : PutCardDown
+     procedure_id : 1650959968054905483
+     type_code : 12
+     code : |1+
+      PROCEDURE PutCardDown(_CardNum,_ControlNum=0)
+      
+      //Places the card in the control (cnNumberVisibleCards possible controls)
+      {:WindowName+"."+:ControlName+_ControlNum,indControl} = :arrCards[_CardNum]:sName
+     type : 458752
+   -
+     name : DeleteCard
+     procedure_id : 1650959968054971019
+     type_code : 12
+     code : |1+
+      PROCEDURE DeleteCard(_CardNum)
+      
+      ArrayDelete(:arrCards,_CardNum)
+     type : 458752
+   -
+     name : AffectGame
+     procedure_id : 1650959968055036555
+     type_code : 12
+     code : |1+
+      PROCEDURE AffectGame(_CardNum,_ControlNum)
+      
+      //Fills the array of game
+      :arrGame[_ControlNum]:sName = :arrCards[_CardNum]:sName
+      :arrDatabase[_ControlNum]:sName = :arrCards[_CardNum]:sName
+      :arrGame[_ControlNum]:nCardNumber = :arrCards[_CardNum]:nCardNumber
+      :arrDatabase[_ControlNum]:nCardNumber = :arrCards[_CardNum]:nCardNumber
+      :arrGame[_ControlNum]:sCardColor = :arrCards[_CardNum]:sCardColor
+      :arrDatabase[_ControlNum]:sCardColor = :arrCards[_CardNum]:sCardColor
+      
+      
+     type : 458752
+   -
+     name : Regive
+     procedure_id : 1650959968055102091
+     type_code : 12
+     code : |1+
+      PROCEDURE Regive(_Number)
+      //Stores the cards of the array to change
+      //If the element is empty, fill it 
+      //otherwise, clear it
+      
+      IF :bStart THEN
+      	//Check whether the game was started
+      	IF :arrGame[_Number]:sName = "" THEN
+      		//Restores the previous value
+      		:arrGame[_Number]:sName = :arrDatabase[_Number]:sName
+      		//Displays the card
+      		{:WindowName+"."+:ControlName+_Number,indControl}= :arrGame[_Number]:sName
+      	ELSE
+      		//Clears the array element
+      		:arrGame[_Number]:sName = ""
+      		//Hides the card
+      		{:WindowName+"."+:ControlName+_Number,indControl}= "Back.png"
+      		
+      	END
+      END
+     type : 458752
+   -
+     name : Change
+     procedure_id : 1650959968055167627
+     type_code : 12
+     code : |1-
+      PROCEDURE Change()
+      //Gives new cards for the empty controls
+      
+      i is int
+      lCardVal is int
+      
+      //No change of card
+      :bStart = False
+      
+      //Browse the game
+      FOR i = 1 TO 5
+      	IF :arrGame[i]:sName = "" THEN
+      		//Takes a new card
+      		//Takes a card
+      		lCardVal = Random(1,:nbRemainingCards)
+      		
+      		//Assign the array
+      		:arrGame[i]:sName = :arrCards[lCardVal]:sName
+      		:arrGame[i]:nCardNumber = :arrCards[lCardVal]:nCardNumber
+      		:arrGame[i]:sCardColor = :arrCards[lCardVal]:sCardColor
+      		
+      		//Displays the card
+      		:PutCardDown(lCardVal,i)
+      		
+      		ArrayDelete(:arrCards,lCardVal)
+      		:nbRemainingCards--
+      	END
+      END
+     type : 458752
+   -
+     name : SortGame
+     procedure_id : 1650959968055233163
+     type_code : 12
+     code : |1+
+      PROCEDURE SortGame()
+      
+      // Sorts the game
+      i   is int
+      j   is int
+      SortCard is card
+      
+      IF :bDebug THEN :TraceSort()
+      FOR i = 1 TO 4
+      	//Comparison loop
+      	FOR j = i+1 TO 5
+      		//The next value is greater than the previous one
+      		IF :arrGame[j]:nCardNumber > :arrGame[i]:nCardNumber THEN
+      			//Exchange the values by passing by the structure 
+      			//intermediate.
+      			SortCard:sName = :arrGame[i]:sname
+      			SortCard:nCardNumber = :arrGame[i]:nCardNumber
+      			SortCard:sCardColor = :arrGame[i]:sCardColor
+      			//Assign j into i
+      			:arrGame[i]:sname = :arrGame[j]:sname
+      			:arrGame[i]:nCardNumber = :arrGame[j]:nCardNumber
+      			:arrGame[i]:sCardColor = :arrGame[j]:sCardColor
+      			//Assign Sort into j
+      			:arrGame[j]:sname = SortCard:sName
+      			:arrGame[j]:nCardNumber = SortCard:nCardNumber
+      			:arrGame[j]:sCardColor = SortCard:sCardColor
+      		END
+      	END
+      END
+      
+      //Displays the sort
+      IF :bDebug THEN :TraceSort()	
+      
+     type : 458752
+   -
+     name : TraceSort
+     procedure_id : 1650959968055298699
+     type_code : 12
+     code : |1+
+      PROCEDURE TraceSort()
+      
+      //Displays the sorted game in a trace.
+      i is int
+      
+      FOR i = 1 TO cnNumberVisibleCards
+      	Info(:arrGame[i]:sname)
+      END
+      
+      Info("*********")
+      
+     type : 458752
+   -
+     name : ReturnAll
+     procedure_id : 1650959968055364235
+     type_code : 12
+     code : |1-
+      PROCEDURE ReturnAll()
+      
+      // Local variables
+      i is int
+      
+      // Is the game initialized?
+      IF arrGame..Occurrence = 0 THEN RESULT False
+      
+      // Turn the cards around
+      FOR i = 1 _TO_ arrGame..Occurrence
+      	//Clears the array element
+      	:arrGame[i]:sName = ""
+      	//Hides the card
+      	{:WindowName+"."+:ControlName+i,indControl}="Back.png"	
+      END
+      
+      RESULT True
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : cDistrib
+resources :
+ string_res :
+  identifier : 0x3d871ad50134b1c8
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

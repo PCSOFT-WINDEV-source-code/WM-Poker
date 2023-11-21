@@ -1,0 +1,461 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WM Poker
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Android application
+    internal_properties : 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
+    configuration_id : 9718889572961173955
+    type : 15
+    generation_directory : .\Exe
+    version : {}
+    language : 2
+  -
+    name : iOS application
+    internal_properties : CAAAAAgAAABT3JRT5if8hZuRdqhnlMwMlObxPUXGArg5Qjj/kS3tjUAZq3MuVbjF6pTCWj8EPHzFvXtfRQl6G6qO3oiDiasPqlly2hyohKVAXhWg954vTmCyZ3XKYt7FXKGjiAICWLgjjRhv0keU8VkeRFVdism9ezYPJSVGkk4oG7v8InHtJvfbyvkFm6KNrwNofCqcLWXFH05HxeIGScznmpXknrVjmgPAr9FHCNVI9BntXyud5g3BfMbXoPe88BPH1uors/XLZaVP876YgbsMoK2RacaX2Lj2TZR1wJGzHB/7gkAlfhVvixoCMPHg1tDEDh+Uomq6OUD7lAyPtivD4yEYM4Nv1FYAMT40/SV3/QG3jW11uZdc6EKJg4u3ycJag26qSehutVMN1w2C3jXUQhDp62u4kaf561U6HILVynMbvulksb2Mpl2BVAP4SKX5toILJt9q09wlerRJj9MPwcnfdgrxKp5GAC7lzsif0KX1vyy297LHaY1o6efFdG4NJy2IdBIHfubPfYHJYQqBuRFtV/1n+mcS588KxcBXgDoj5M/DJiO9Rc7eOsoR3sN7LWN/DWaPg2/GyBu8vd5DQ8AI5DHgVSjwkvcZrBXpxDKjPQBVtS1sbJblMdiJo1tDXlzagPG+doXul6mrsHeLTWN/l5O4r9tR/ZdTlpt7DE/xCenaRnejBI9Dp+mIUnbaexz1GuSBbugZPWdEvlgxmYmxXg/JEOXnk+iw4NPuuLBS8BNq+Xs+OQfcVtFdomhFQt9otYbV6AJ4IALuJVf7ayDjtX7i9fdlWUjZC7q8h9BGELPs4pG8dOR6+Fd+S5Qd+CEXlwG2xr/02ui5ldGIXOCw5J0zsjc194qBTvHcBu5Dt9I350oJOsfYh5SGDKgQiTOmJmjwRVK5D7tmvnkRod84KVK/GwFkNjSrLX5O5M6uqFRjiNDe/HTfa7vPypqChLXkIYOYonp9ZArF0BW3er82z8NgjXbVhcNurBWLkB16V3seq3UzIyjna3Z9pYC/Y4QH9NgEMNfZKvA9LvQMuj0Pp2Jiec8B3QUOBE70GAyMm2RcpMiCs9csBXizQQJnvZXqARIDrSD865tClrgu0NO8hLbDnxScy/XjMB4EA91w5Tgf8CrWCZZGra+uoYfflYbekwwHPOgTuysH8Ka43Z9YWDmS/k2IbTx6QtKk1fkGfLQDU21Gi5sgteHd6zB2ampyT2oB8dHuND9++qjleu4rS59b55v9WQdxuJ8fqXyr2qazyrPajca57zUPU/TXhrTXIK2vMktGXVYkktsa1AGJsWIdyUxu5UoHuRoc/03O3rEeK7mgRPz4I3kcQPwV8TAQymUIAchLx7OXy5B0Q7UjU8W2+BxmrSJQBJ9JglMrVegVHqM6k1Kh5ubvk+grYwJvvLJ6ZEcmZoklizjPMjysK3aNFeR9d/eZHwJAhPbFBOaX2bjflO+eLMlATsKaPYOkgUqAQR9aw7R+pFJ7A3ulitdgc2RBvtCbCrMs8NczufqlV/b9N1Wv78JK5e+gMib1DnNPN8yd3erkUY0SRRHK5ygvXIZzUif/EV/1XMc/EoXR+UHDRraXDyMGp8f+KEDKUhfav5qldkOhUp2s8ogvcrOBOwu7ED+VQOgRxXSivQhWh5JlZ0mJaV8uG1/vWjZNOJHZmVgRBZZ+o+a4b5Z6UaXrgGXynZ7JYl8wMEp9JxhzUkzrlBPmUgtii5c4IpIwQNVMUwqt1D0pGdU2MGrrkVSIuHmyc0OBxHke381Pq0TQCP9a3eEV3kcOULqHFEA=
+    configuration_id : 16996370431483082432
+    type : 18
+    generation_directory : .\Exe
+    version : {}
+    language : 2
+    telemetry :
+     status : disabled
+  -
+    name : Universal Windows 10 App
+    internal_properties : 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
+    configuration_id : 8250710818494906914
+    type : 20
+    generation_directory : .\Exe
+    version :
+     major_version : 1
+     generation_version : 24
+    language : 2
+ elements :
+  identifier : 0x4eeb4c0100020cc4
+  elements :
+   -
+     name : cPoker
+     identifier : 0x4eeb4e8100d3d198
+     internal_properties : CAAAAAgAAABTr4ufLBkRypTy/J+A2KXBM1AOFrb8KQsMn0nhOhMDLcdZLi3VK+cwtWxWomKeWk62vg==
+     physical_name : .\cPoker.wdc
+     type : 4
+   -
+     name : cCardGame
+     identifier : 0x4eeb4e8100d1d060
+     internal_properties : CAAAAAgAAADKQDLW1ZKaRQ07Ebz1NhxQ1qeNlV2zqZK/UJm5WOUvkXNTsqloWArVbtXPKennkwXPVw==
+     physical_name : .\cCardGame.wdc
+     type : 4
+   -
+     name : WIN_Main_Tablet
+     identifier : 0x4550dc4601be7257
+     internal_properties : CAAAAAgAAABl11O/OMW9DoMSNzaOZudiOX2Wu2PK4y3lITMq5nlELgoeCHctY6a/dBDL9N87hG/g
+     physical_name : .\WIN_Main_Tablet.wpw
+     type : 2
+   -
+     name : IW_SLIDING_MENU
+     identifier : 0x45acf2a20038fab1
+     internal_properties : CAAAAAgAAAAdeXUplsNrdMytt5/cByBho9yerhI9RE6O94qgCA0BN81jSDIL/WWdsZYA+Lgo0MAICA==
+     physical_name : .\IW_SLIDING_MENU.wdw
+     type : 8
+   -
+     name : WIN_About
+     identifier : 0x45b0e95f00ce8693
+     internal_properties : CAAAAAgAAAABc7/rNJGhoudGPzQqTkvBW4d89i9F5J0Z3aIQtp57bw9cTrU7w5qTGHSvyOsPqBME
+     physical_name : .\WIN_About.wpw
+     type : 2
+   -
+     name : TPLC_About
+     identifier : 0x45b0e1d000cc0256
+     internal_properties : CAAAAAgAAAB92VVJdiOLlKyRDvnyiaDWBWLIaGi/ZXBOax2ErGktk3Vf9Q28THShETagGJhIMKBo6A==
+     physical_name : .\TPLC_About.wpt
+     type : 20
+   -
+     name : WIN_Main
+     identifier : 0x4eeb4c58007260dc
+     internal_properties : CAAAAAgAAACgnpiEIxgQy5fx+5qDtpY2BEHD2+hpTeSiZqisUc3PebdLHj3aLuQvtGtVo2OdZVulrQ==
+     physical_name : .\WIN_Main.wpw
+     type : 2
+  other_elements :
+   -
+     physical_name : .\2C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\2D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\2H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\2S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\3C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\3D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\3H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\3S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\4C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\4D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\4H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\4S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\5C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\5D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\5H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\5S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\6C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\6D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\6H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\6S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\7C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\7D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\7H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\7S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\8C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\8D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\8H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\8S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\9C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\9D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\9H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\9S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\10C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\10D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\10H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\10S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\11C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\11D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\11H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\11S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\12C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\12D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\12H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\12S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\13C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\13D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\13H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\13S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\14C.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\14D.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\14H.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\14S.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+   -
+     physical_name : .\Back.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9718889572961173955
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ languages :
+  - en-GB
+ wd_style_sheet : .\iOS Poker.sty
+ wb_style_sheet : .\iOS Poker.wws
+ code_elements :
+  internal_properties : CAAAAAgAAABseimUYz4VdXZ8hGsGFqoxLDfDcHkNZdBf0iQg2FQcqmw5VrO2lryVMt3efm9RagPlXJBReauIsX3ZdB8=
+  type_code : 0
+  p_codes :
+   -
+     code : |1+
+      CONSTANT
+      	cnInitialCreditAmount = 100
+      END
+      
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Android application
+     identifier : 0x4f193abe001a7ed2
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : iOS application
+     identifier : 0x4550d5340042d53e
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : Universal Windows 10 App
+     identifier : 0x4644955f00d83f66
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
